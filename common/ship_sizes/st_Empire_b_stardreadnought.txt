@@ -27,7 +27,7 @@ st_star_dreadnought = {
 	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part3" } "mid3" = { locator = "part4" } "stern" = { locator = "part5" } }
 	num_target_locators = 4
 	is_space_station = no
-	icon_frame = 6
+	icon = ship_size_military_16
 	base_buildtime = 3600
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start	

@@ -26,7 +26,7 @@ st_Empire_fighter = {
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 2
 	is_space_station = no
-	icon_frame = 2
+	icon = ship_size_military_1
 	base_buildtime = 20
 	can_have_federation_design = no
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start	
@@ -59,7 +59,7 @@ st_Empire_bomber = {
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 2
 	is_space_station = no
-	icon_frame = 2
+	icon = ship_size_military_1
 	base_buildtime = 30
 	can_have_federation_design = no
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start	
@@ -96,7 +96,7 @@ st_Empire_Patrol = {
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 2
 	is_space_station = no
-	icon_frame = 2
+	icon = ship_size_military_1
 	base_buildtime = 50
 	can_have_federation_design = no
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start	

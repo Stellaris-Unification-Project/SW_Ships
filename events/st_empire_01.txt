@@ -41,14 +41,14 @@ event = {
 #		modifier = {
 #			factor = 0.05
 #			NOT = { has_special_project = sw_empire_01_anni_project }
-#			count_owned_ships = {
+#			count_owned_ship = {
 #				limit = { is_ship_size = sw_Annihilator }
 #				count = 0
 #			}
 #		}
 #		modifier = {
 #			factor = 0
-	#		count_owned_ships = {
+	#		count_owned_ship = {
 #				limit = { is_ship_size = sw_Annihilator }
 #				count > 2
 #		}
