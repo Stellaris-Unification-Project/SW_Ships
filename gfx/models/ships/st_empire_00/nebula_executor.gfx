@@ -1,0 +1,43 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_empire_00_executor_mesh"
+		file = "gfx/models/ships/st_empire_00/nebula_executor.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "EV_ExecutorSD_cShape"
+			index = 0
+			texture_diffuse = "Ev_executorstardestroyer_c.dds"
+			texture_normal = "Ev_executorstardestroyer_c_B.dds"
+			texture_specular = "Ev_executorstardestroyer_c_S.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "LightsShape"
+			index = 0
+			texture_diffuse = "Ev_executorstardestroyer_b.dds"
+			texture_normal = "Ev_executorstardestroyer_L01.dds"
+			texture_specular = "Ev_executorstardestroyer_b_S.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "EV_ExecutorSD_bShape"
+			index = 0
+			texture_diffuse = "Ev_executorstardestroyer_b.dds"
+			texture_normal = "Ev_executorstardestroyer_b_B.dds"
+			texture_specular = "Ev_executorstardestroyer_b_S.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "EV_ExecutorSD_aShape"
+			index = 0
+			texture_diffuse = "Ev_executorstardestroyer_a.dds"
+			texture_normal = "Ev_executorstardestroyer_a_B.dds"
+			texture_specular = "Ev_executorstardestroyer_a_S.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

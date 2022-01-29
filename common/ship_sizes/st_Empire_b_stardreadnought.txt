@@ -1,0 +1,98 @@
+
+@ssd_combat_speed = 40
+@ssd_combat_rotation = 0.15
+@ssd_collision_radius = 18
+@titan_formation_priority = 5
+
+
+
+st_star_dreadnought = {
+	graphical_culture = { "st_empire_00" }
+	formation_priority = @titan_formation_priority
+	max_speed = 80
+	acceleration = 0.10
+	rotation_speed = 0.2
+	collision_radius = @ssd_collision_radius
+	modifier = {
+		ship_evasion_mult = -0.99
+		ship_armor_add = 72
+		
+		ship_shield_mult = 1.5
+		ship_hull_mult = 1.5
+		ship_piracy_suppression_add = 1
+	}
+	max_hitpoints = 15000
+	size_multiplier = 64
+	fleet_slot_size = 20
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part3" } "mid3" = { locator = "part4" } "stern" = { locator = "part5" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 6
+	base_buildtime = 3600
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start	
+	default_behavior = artillery
+	
+	prerequisites = {"tech_st_empire_01" "tech_star_dreadnoughts"}
+	
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	
+	possible_construction = {
+		custom_tooltip = {
+			fail_text = starbase_citadel_trigger
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_size >= starbase_citadel
+				}
+			}
+		}
+		custom_tooltip = {
+			fail_text = starbase_titan_yards_trigger
+			OR = {
+				AND = {
+					is_scope_type = megastructure
+					OR = {
+						is_megastructure_type = mega_shipyard_3
+						is_megastructure_type = mega_shipyard_restored
+					}
+				}
+				AND = {
+					is_scope_type = starbase
+					has_starbase_building = titan_yards
+				}
+			}
+		}
+	}
+	
+	empire_limit = {
+		base = 1
+		max = 20
+		naval_cap_div = 200
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @titan_upkeep_energy
+			alloys = @titan_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 32
+	}
+}

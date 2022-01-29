@@ -1,0 +1,560 @@
+@section_cost = 40
+# Escort Carrier
+
+
+ship_section_template = {
+	key = "ST_E_CARRIER_BOW_M2S2"
+	ship_size = st_Carrier_01
+	fits_on_slot = bow
+	entity = "st_e_carrier_bow_M2S2_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_E_CARRIER_BOW_M3"
+	ship_size = st_Carrier_01
+	fits_on_slot = bow
+	entity = "st_e_carrier_bow_M3_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = slaving_despots
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = migrating_flock
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+	}
+	
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_CARRIER_BOW_H2"
+	ship_size = st_Carrier_01
+	fits_on_slot = bow
+	entity = "st_carrier_bow_H2_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_tie_hunter }
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = erudite_explorers
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = federation_builders
+				has_ai_personality = ruthless_capitalists	
+				has_ai_personality = metalhead
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+	
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+#MID Escort Carrier
+
+ship_section_template = {
+	key = "ST_E_CARRIER_MID_S2H2"
+	ship_size = st_Carrier_01
+	fits_on_slot = mid
+	entity = "st_e_carrier_mid_S2H2_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_02"
+	}
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 1
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+
+#STERN Escort Carrier
+
+ship_section_template = {
+	key = "ST_E_CRUISER_STERN_M2"
+	ship_size = st_Carrier_01
+	fits_on_slot = stern
+	entity = "st_e_carrier_stern_S2M1_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 100.0
+			NOT = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = slaving_despots
+				has_ai_personality = migrating_flock
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "small_gun_06"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_E_CARRIER_STERN_S2M1"
+	ship_size = st_Carrier_01
+	fits_on_slot = stern
+	entity = "st_e_carrier_stern_S2M1_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+
+
+	ai_weight = {
+		modifier = {
+			factor = 100.0
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = slaving_despots
+				has_ai_personality = migrating_flock
+			}
+		}
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_06"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_06"
+	}
+	
+	
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+
+# TonnFalk
+
+
+ship_section_template = {
+	key = "ST_T_CARRIER_BOW_M2S2"
+	ship_size = st_Carrier_01
+	fits_on_slot = bow
+	entity = "st_t_carrier_bow_M2S2_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_tonnfalk }
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	small_utility_slots = 1
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+#MID TonnFalk
+
+ship_section_template = {
+	key = "ST_T_CARRIER_MID_S2H3"
+	ship_size = st_Carrier_01
+	fits_on_slot = mid
+	entity = "st_t_carrier_mid_S2H3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tonnfalk }
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_02"
+	}
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 2
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+
+ship_section_template = {
+	key = "ST_T_CARRIER_STERN_S2M2"
+	ship_size = st_Carrier_01
+	fits_on_slot = stern
+	entity = "st_t_carrier_stern_S2M2_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_tonnfalk }
+
+
+	ai_weight = {
+		modifier = {
+			factor = 100.0
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = slaving_despots
+				has_ai_personality = migrating_flock
+			}
+		}
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_06"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_04"
+	}
+	
+	
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_CARRIER_STERN_H1"
+	ship_size = st_Carrier_01
+	fits_on_slot = stern
+	entity = "st_carrier_stern_H1_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_battleships }
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 5.0
+			OR = {
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = erudite_explorers
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = federation_builders
+				has_ai_personality = ruthless_capitalists	
+				has_ai_personality = metalhead
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_02"
+	}
+
+	medium_utility_slots = 1
+	large_utility_slots = 1
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

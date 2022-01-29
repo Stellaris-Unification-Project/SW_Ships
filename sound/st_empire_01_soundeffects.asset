@@ -1,0 +1,206 @@
+
+########## WEAPONS SFX ############
+
+########## ON DISTANCE WEAPONS SFX
+
+
+############ CLOSE WEAPONS SFX
+
+
+soundeffect = {
+	name = TIE_Explosion
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = TIE_explosion_01
+		sound = TIE_explosion_02
+
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 1.0
+}
+
+######### HIT ENTITIY & DEATH #####
+
+####### DISTANT
+
+###### CLOSE
+
+###########Moving Out###################
+
+soundeffect = {
+	name = moving_out_em_SSD
+	falloff = "falloff_400"
+	volume = 1.0
+	sounds = {
+		sound = moving_out_em_ssd_01
+		sound = moving_out_em_ssd_02
+		sound = moving_out_em_ssd_03
+		sound = moving_out_em_ssd_04
+		sound = moving_out_em_ssd_05
+		sound = moving_out_em_ssd_06
+		sound = moving_out_em_ssd_07
+		sound = moving_out_em_ssd_08
+		sound = moving_out_em_ssd_09
+		
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_Dread
+	falloff = "falloff_400"
+	volume = 0.8
+	sounds = {
+		sound = moving_out_em_Dread_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_TIE
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_tie_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_TIE_Bomber
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_tie_bomber_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_Interdictor
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_Inter_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_Slave1
+	falloff = "falloff_400"
+	volume = 0.8
+	sounds = {
+		sound = moving_out_em_Slave1_01
+		sound = moving_out_em_Slave1_02
+		sound = moving_out_em_Slave1_03
+		sound = moving_out_em_Slave1_04
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+##########Ambient#############
+
+soundeffect = {
+	name = Empire_Fighter_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_TIE_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+soundeffect = {
+	name = Empire_Cruiser_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_Cruiser_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+soundeffect = {
+	name = Empire_Corv_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_Corvette_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+soundeffect = {
+	name = Empire_Slave1_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_Slave1_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

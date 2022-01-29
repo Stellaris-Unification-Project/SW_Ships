@@ -1,0 +1,126 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Broadside_destroyer_L1_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Broadside_destroyer_L1.mesh"
+		scale = 0.25
+
+		meshsettings = {
+			name = "BroadsideShape"
+			index = 0
+			texture_diffuse = "st_Empire_Broadside_Class_diffuse.dds"
+			texture_normal = "st_Empire_Broadside_Class_normal.dds"
+			texture_specular = "st_Empire_Broadside_Class_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "BroadsideShape"
+			index = 1
+			texture_diffuse = "Engine_Glow_White_diffuse.dds"
+			texture_normal = "Engine_Glow_White_normal.dds"
+			texture_specular = "Engine_Glow_White_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Costum_destroyer_M1S2_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Costum_destroyer_M1S2.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 0
+			texture_diffuse = "st_Empire_Custom_Frigate_diffuse.dds"
+			texture_normal = "st_Empire_Custom_Frigate_normal.dds"
+			texture_specular = "st_Empire_Custom_Frigate_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 1
+			texture_diffuse = "Engine_Glow_White_diffuse.dds"
+			texture_normal = "Engine_Glow_White_normal.dds"
+			texture_specular = "Engine_Glow_White_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 2
+			texture_diffuse = "st_Empire_Costum_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Costum_Lights_normal.dds"
+			texture_specular = "st_Empire_Costum_Lights_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Raider_Cor_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Empire_Raider_Cor.mesh"
+		scale = 0.9
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Raider_Cor_diffuse.dds"
+			texture_normal = "st_Empire_Raider_Cor_normal.dds"
+			texture_specular = "st_Empire_Raider_Cor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Lights_Grid_diffuse.dds"
+			texture_normal = "Lights_Grid_specular.dds"
+			texture_specular = "Lights_Grid_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Arq_S2M1_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Empire_Arq_S2M1.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Arquitens_Hull_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Hull_normal.dds"
+			texture_specular = "st_Empire_Arquitens_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Arquitens_Detail_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Detail_normal.dds"
+			texture_specular = "st_Empire_Arquitens_Detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Empire_Arquitens_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Arquitens_Lights_normal.dds"						
+			texture_specular = "st_Empire_Arquitens_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+
+

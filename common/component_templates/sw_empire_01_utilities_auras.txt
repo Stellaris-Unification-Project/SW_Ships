@@ -1,0 +1,145 @@
+# ##################################################
+#
+# Radial Effect / Aura components
+#
+# ##################################################
+
+### Variables
+
+@shipAuraRange = 90
+@shipsmallAuraRange = 65
+@stationSmallAuraRange = 70
+@stationMediumAuraRange = 90
+@stationLargeAuraRange = 110
+
+
+utility_component_template = {
+	key = "E_INTERDICTOR_SHIP_AURA_SUBSPACE_SNARE"
+	size = medium
+	icon = "GFX_ship_part_aura_snare"
+	icon_frame = 1
+	power = -100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t7_cost
+		}		
+		upkeep = {
+			alloys = @l_t7_upkeep_alloys
+			energy = @l_t7_upkeep_energy
+		}
+	}
+
+	
+	component_set = "st_empire_dominator_components"
+	size_restriction = { st_heavy_Int_01 }
+	
+	hostile_aura = {
+		name = "aura_ship_subspace_snare"
+		radius = @shipAuraRange
+		apply_on = fleets
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_snare_aura
+			priority = 1
+		}
+		
+		modifier = {
+			ship_windup_mult = 4
+			ship_speed_mult = -0.5
+			ship_disengage_chance_mult = -1
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"   
+				dynamic_scale = no
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "E_IMMOBILIZER_SHIP_AURA_SUBSPACE_SNARE"
+	size = medium
+	icon = "GFX_ship_part_aura_snare"
+	icon_frame = 1
+	power = -75
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+
+	
+	component_set = "st_empire_immo_components"
+	size_restriction = { st_light_Int_01 }
+	
+	hostile_aura = {
+		name = "aura_ship_subspace_snare"
+		radius = @shipsmallAuraRange
+		apply_on = fleets
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_snare_aura
+			priority = 1
+		}
+		
+		modifier = {
+			ship_windup_mult = 2.5
+			ship_speed_mult = -0.25
+			ship_disengage_chance_mult = -0.75
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_negative_entity"   
+				dynamic_scale = no
+			}
+		}
+	}
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "ST_EMPIRE_NO_DOMI"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+
+	component_set = "st_empire_dominator_components"
+}
+
+utility_component_template = {
+	key = "ST_EMPIRE_NO_GRAV"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+
+
+	component_set = "st_empire_immo_components"
+}
+
+

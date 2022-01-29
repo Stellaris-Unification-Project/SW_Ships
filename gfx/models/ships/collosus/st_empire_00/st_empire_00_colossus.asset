@@ -1,0 +1,83 @@
+# From ISB
+@colossus_scale = 24
+
+entity = {
+	name = "st_empire_00_st_DS_01_entity_top"
+	pdxmesh = "st_Empire_01_DS_Up_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" }
+	state = { name = "moving" animation = "idle" }
+	state = { name = "working" animation = "idle" }
+	state = { name = "death" animation = "closed_death" looping = no 
+		event = { time = 13.2 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+			}
+		}
+	}
+	state = { name = "death" animation = "opened_death" looping = no 
+		event = { time = 9.13 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+			}
+		}
+	}
+	
+	locator = { name = "part1" position = { -50 0 0 } }
+	locator = { name = "part3" position = { -50 0 0 } }
+	
+	game_data = {
+		size = @colossus_scale
+	}
+}
+#
+
+entity = {
+	name = "st_empire_00_colossus_entity"
+	pdxmesh = "st_Empire_01_DS_Down_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" }
+	state = { name = "moving" animation = "idle" }
+	state = { name = "working" animation = "idle" }
+	state = { name = "death" animation = "closed_death" looping = no 
+		event = { time = 13.2 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 100
+				"moving" = 100
+				"death" = 0
+				"working" = 0
+			}
+		}
+	}
+	state = { name = "death" animation = "opened_death" looping = no 
+		event = { time = 9.13 node = "frame_ship" particle = "dreadnought_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		chance = {
+			if_current_state = {
+				"idle" = 0
+				"moving" = 0
+				"death" = 0
+				"working" = 100
+			}
+		}
+	}
+	
+	locator = { name = "part1" position = { -50 0 0 } }
+	locator = { name = "part3" position = { -50 0 0 } }
+	locator = { name = "root" position = { 0 0 0 } }
+	attach = { "root" = "st_empire_01_st_DS_01_entity_top" }
+	
+	game_data = {
+		size = @colossus_scale
+	}
+}

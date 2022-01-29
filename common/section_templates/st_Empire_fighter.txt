@@ -1,0 +1,343 @@
+@section_cost = 10
+ship_section_template = {
+	key = "E_FIGHTER_MID_TIE_SCOUT"
+	ship_size = st_Empire_fighter
+	fits_on_slot = mid
+	entity = "e_fighter_tiescout_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_FIGHTER_MID_TIE_FIGHTER"
+	ship_size = st_Empire_fighter
+	fits_on_slot = mid
+	entity = "e_fighter_tiefighter_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_fighter }
+
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_FIGHTER_MID_TIE_INT"
+	ship_size = st_Empire_fighter
+	fits_on_slot = mid
+	entity = "e_fighter_tieint_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_interceptor }
+	
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_FIGHTER_MID_TIE_HUNTER"
+	ship_size = st_Empire_fighter
+	fits_on_slot = mid
+	entity = "e_fighter_tiehunter_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_hunter }
+	
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_BOMBER_MID_TIE_BOMBER"
+	ship_size = st_Empire_bomber
+	fits_on_slot = mid
+	entity = "e_bomber_tiebomber_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_bomber }
+	
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_BOMBER_MID_TIE_DEFENDER"
+	ship_size = st_Empire_bomber
+	fits_on_slot = mid
+	entity = "e_bomber_tiedefender_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_defender }
+	
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "E_BOMBER_MID_TIE_TORPEDO"
+	ship_size = st_Empire_bomber
+	fits_on_slot = mid
+	entity = "e_bomber_tietorpedo_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_tie_torpedo }
+	
+	ai_weight = {
+		factor = 2
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+
+ship_section_template = {
+	key = "E_PATROL_MID_SLAVE1"
+	ship_size = st_Empire_Patrol
+	fits_on_slot = mid
+	entity = "e_patrol_slave1_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_patrol_craft }
+
+	ai_weight = {
+		factor = 4
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+	
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	aux_utility_slots = 0
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}

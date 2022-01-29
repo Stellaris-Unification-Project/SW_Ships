@@ -1,0 +1,257 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Fighter_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Fighter.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_FighterShape"
+			index = 0
+			texture_diffuse = "st_TIE_LN_Fighter_diffuse.dds"
+			texture_normal = "st_TIE_LN_Fighter_normal.dds"
+			texture_specular = "st_TIE_LN_Fighter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Bomber_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Bomber.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Tie_BomberShape"
+			index = 0
+			texture_diffuse = "st_TIE_Bomber_diffuse.dds"
+			texture_normal = "st_TIE_Bomber_normal.dds"
+			texture_specular = "st_TIE_Bomber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Scout_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Scout.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_ScoutShape"
+			index = 0
+			texture_diffuse = "st_TIE_Scout_diffuse.dds"
+			texture_normal = "st_TIE_Scout_normal.dds"
+			texture_specular = "st_TIE_Scout_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Interceptor_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Interceptor.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_TIE_Interceptor_diffuse.dds"
+			texture_normal = "st_TIE_Interceptor_normal.dds"
+			texture_specular = "st_TIE_Interceptor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_TIE_Interceptor_wings_diffuse.dds"
+			texture_normal = "st_TIE_Interceptor_wings_normal.dds"
+			texture_specular = "st_TIE_Interceptor_wings_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Advanced_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Advanced.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_AdvancedShape"
+			index = 0
+			texture_diffuse = "st_TIE_Advanced_diffuse.dds"
+			texture_normal = "st_TIE_Advanced_normal.dds"
+			texture_specular = "st_TIE_Advanced_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Defender_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Defender.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_TIE_Defender_cockpit_diffuse.dds"
+			texture_normal = "st_TIE_Defender_cockpit_normal.dds"
+			texture_specular = "st_TIE_Defender_cockpit_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_TIE_Defender_wings_diffuse.dds"
+			texture_normal = "st_TIE_Defender_wings_normal.dds"
+			texture_specular = "st_TIE_Defender_wings_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Phantom_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Phantom.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_PhantomShape"
+			index = 0
+			texture_diffuse = "st_TIE_Phantom_diffuse.dds"
+			texture_normal = "st_TIE_Phantom_normal.dds"
+			texture_specular = "st_TIE_Phantom_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_TIE_Hunter_mesh"
+		file = "gfx/models/ships/st_empire_01/st_TIE_Hunter.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_TIE_Hunter_diffuse.dds"
+			texture_normal = "st_TIE_Hunter_normal.dds"
+			texture_specular = "st_TIE_Hunter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_TIE_Torp_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Empire_TIE_Torp.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 0
+			texture_diffuse = "st_TIE_Torp_parts_diffuse.dds"
+			texture_normal = "st_TIE_Torp_parts_normal.dds"
+			texture_specular = "st_TIE_Torp_parts_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 1
+			texture_diffuse = "st_TIE_Torp_panels_diffuse.dds"
+			texture_normal = "st_TIE_Torp_panels_normal.dds"
+			texture_specular = "st_TIE_Torp_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 2
+			texture_diffuse = "st_TIE_Torp_turret_diffuse.dds"
+			texture_normal = "st_TIE_Torp_turret_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_01_Slave1_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Empire_01_Slave1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_01_Slave1_Hull_diffuse.dds"
+			texture_normal = "st_Empire_01_Slave1_Hull_normal.dds"
+			texture_specular = "st_Empire_01_Slave1_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_01_Slave1_Rear_diffuse.dds"
+			texture_normal = "st_Empire_01_Slave1_Rear_normal.dds"
+			texture_specular = "st_Empire_01_Slave1_Rear_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Empire_01_Slave1_Gun2_diffuse.dds"
+			texture_normal = "st_Empire_01_Slave1_Gun2_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Empire_01_Slave1_Gun1_diffuse.dds"
+			texture_normal = "st_Empire_01_Slave1_Gun1_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "st_Empire_01_Slave1_Glass_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "st_Empire_01_Slave1_Engine_diffuse.dds"
+			texture_normal = "st_Empire_01_Slave1_Engine_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_01_Slave1_Engine_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Empire_01_Slave1_Engine.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Engine_OnShape"
+			index = 0
+			texture_diffuse = "st_Empire_01_Slave1_Engine_on_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+
+
+

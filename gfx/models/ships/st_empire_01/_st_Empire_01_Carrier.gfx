@@ -1,0 +1,95 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Tonn_H4_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Empire_Tonn_H4.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "TonnShape"
+			index = 0
+			texture_diffuse = "st_Empire_Tonn_hull_diffuse.dds"
+			texture_normal = "st_Empire_Tonn_hull_normal.dds"
+			texture_specular = "st_Empire_Tonn_hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "TonnShape"
+			index = 1
+			texture_diffuse = "st_Empire_Tonn_armor_diffuse.dds"
+			texture_normal = "st_Empire_Tonn_armor_normal.dds"
+			texture_specular = "st_Empire_Tonn_armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "TonnShape"
+			index = 2
+			texture_diffuse = "st_Empire_Tonn_detail_diffuse.dds"
+			texture_normal = "st_Empire_Tonn_detail_normal.dds"
+			texture_specular = "st_Empire_Tonn_detail_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "TonnShape"
+			index = 3
+			texture_diffuse = "st_Empire_MC_Lights_diffuse.dds"
+			texture_normal = "st_Empire_MC_Lights_normal.dds"
+			texture_specular = "st_Empire_MC_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "TonnShape"
+			index = 4
+			texture_diffuse = "mc55_weldingCrane_diffuse.dds"
+			texture_normal = "mc55_weldingCrane_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Tonn_S2_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Empire_Tonn_S2.mesh"
+		scale = 0.8
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Escort_cruiser_S2H2_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Escort_cruiser_S2H2.mesh"
+		scale = 0.65
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Escortcarrier_diffuse.dds"
+			texture_normal = "st_Empire_Escortcarrier_normal.dds"
+			texture_specular = "st_Empire_Escortcarrier_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Escortcarrier_lights_diffuse.dds"
+			texture_normal = "st_Empire_Escortcarrier_lights_normal.dds"
+			texture_specular = "st_Empire_Escortcarrier_lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Escort_cruiser_M1H1_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Escort_cruiser_M1H1.mesh"
+		scale = 0.65
+	}
+}
+

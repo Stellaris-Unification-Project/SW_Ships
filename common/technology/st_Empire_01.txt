@@ -1,0 +1,97 @@
+# ##################
+# Galactic Empire
+# ##################
+
+tech_st_empire_01 = {
+	area = physics
+	cost = @tier4cost1
+	tier = 1
+	category = { voidcraft }
+	ai_update_type = military
+	
+	weight = @tier1weight1
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = st_Empire_01_Start }
+		}	
+	}
+	ai_weight = {
+		factor = 2	
+		modifier = {
+			factor = 1
+			has_country_flag = st_Empire_01_Start 
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = st_Empire_01_Start }
+		}
+	}
+}
+
+tech_sw_empire_anni = {
+	area = engineering
+	cost = @tier5cost3
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_super_star_destroyers" "tech_st_empire_01" }
+	ai_update_type = military
+	weight = @tier5weight3
+	is_rare = yes
+
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_EMPIRE_ANNI_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_EMPIRE_ANNI_CHAIN_DESC"
+		}
+	}
+
+	weight_modifier = {
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_st_empire_01
+			}
+		}	
+		
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 150 }
+		}
+		
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	
+	ai_weight = {
+		factor = 0
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_st_empire_01
+			}
+		}	
+	}
+}
+
+
+
+
+
+

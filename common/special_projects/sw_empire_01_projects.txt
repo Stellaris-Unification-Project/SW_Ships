@@ -1,0 +1,16 @@
+#special_project = {
+#	key = "sw_empire_01_anni_project"
+#	tech_department = engineering_technology
+#	days_to_research = 3650
+#	picture = GFX_evt_landing_ship
+#	icon = "gfx/interface/icons/situation_log/situation_log_ship.dds"
+#	event_scope = planet_event
+#	requirements = {
+#		#shipclass_constructor = 1
+#	}
+#	abort_trigger = {}
+#	on_success = {
+#		planet_event = { id = stempiretech.2000 }
+#	}
+#	on_fail = {}
+#}

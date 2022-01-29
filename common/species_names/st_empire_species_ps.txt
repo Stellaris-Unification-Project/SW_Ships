@@ -1,0 +1,23 @@
+# Generated species derive their names from here
+
+### AI
+
+EMPIRE = {
+	humans = {
+		name = Human
+		plural = Humans
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "HUM1"
+	}
+}
+
+EMPIRE_LITE = {
+	humans = {
+		name = Human
+		plural = Humans
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "HUM1"
+	}
+}

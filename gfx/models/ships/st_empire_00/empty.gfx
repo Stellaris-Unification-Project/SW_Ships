@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "empty_mesh"
+		file = "gfx/models/ships/st_empire_00/empty.mesh"
+		scale = 1.0
+	}
+}

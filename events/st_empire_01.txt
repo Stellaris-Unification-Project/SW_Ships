@@ -1,0 +1,150 @@
+namespace = stempiretech
+
+#from Folk, thanks for that!
+#tech für Schiffsklassen
+event = {
+	id = stempiretech.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				graphical_culture = st_empire_00
+			}
+			give_technology = { tech = tech_st_empire_01 }
+			give_technology = { tech = tech_st_shipsized_weapons }
+			give_technology = { tech = tech_st_tibanna_refined }
+			give_technology = { tech = tech_kyber_mining }
+			give_technology = { tech = tech_tibanna_mining }
+		}
+	}
+}
+
+
+# From Folks remake mod. With permission.
+
+# MTTH 5 years +/-
+#country_event = {
+##	id = stempiretech.2
+#	hide_window = yes
+#
+#	trigger = {
+#		has_technology = tech_sw_empire_anni
+#		exists = capital_scope
+#	}
+#
+#	mean_time_to_happen = {
+#		years = 12
+#		# If we don't have a carrier, and no project, start up a research
+#		# program again ASAP
+#		modifier = {
+#			factor = 0.05
+#			NOT = { has_special_project = sw_empire_01_anni_project }
+#			count_owned_ships = {
+#				limit = { is_ship_size = sw_Annihilator }
+#				count = 0
+#			}
+#		}
+#		modifier = {
+#			factor = 0
+	#		count_owned_ships = {
+#				limit = { is_ship_size = sw_Annihilator }
+#				count > 2
+#		}
+#		}
+#	}
+#
+#	immediate = {
+#		country_event = {
+#			id = stempiretech.201
+#			days = 12
+#			random = 359
+#		}
+#	}
+#}
+
+#country_event = {
+#	id = stempiretech.201
+#	is_triggered_only = yes
+#	title = SW_EMPIRE_ANNI_Project
+#	desc = SW_EMPIRE_ANNI_Project_DESC
+#	picture = GFX_evt_fleet_good
+#	trigger = {
+#		exists = capital_scope
+#		NOT = {
+#			has_special_project = sw_empire_01_anni_project
+##		}
+#	}
+#	immediate = {
+#		enable_special_project = {
+#			name = sw_empire_01_anni_project
+#			location = capital_scope
+#			owner = root
+#		}
+#	}
+#	option = {
+#		name = EXCELLENT
+#	}
+#}
+
+# Triggered by special project
+
+#planet_event = {
+#	id = stempiretech.2000
+#	is_triggered_only = yes
+#	hide_window = yes
+#	trigger = {
+#		exists = solar_system
+#		exists = owner
+#		exists = root
+#	}
+#	immediate = {
+#		owner = {
+#			country_event = {
+#				id = stempiretech.2001
+#			}
+#		}
+#	}
+#}
+
+
+#country_event = {
+#	id = stempiretech.2001
+#	is_triggered_only = yes
+#	title = SW_EMPIRE_ANNI_Project
+#	desc = SW_EMPIRE_ANNI_Completed
+#	picture = GFX_evt_fleet_good
+#
+#	trigger = {
+#		exists = capital_scope
+#	}
+#
+#	immediate = {
+#		create_fleet = {
+#			name = "Annihilator SSD"
+#			effect = {
+#				set_owner = root
+#				create_ship = {
+#					name = random
+#					design = "Annihilator SSD"
+##					#ftl = "root"
+#					
+#				}
+#				set_location = root.capital_scope
+#				# set_location = {
+#				# 	target = root.capital_scope
+#				# 	distance = 20
+#				# 	angle = random
+#				# }
+#			}
+#		}
+#	}
+#	option = {
+#		name = EXCELLENT
+#	}
+#}
+
+
+
+

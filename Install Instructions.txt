@@ -1,0 +1,15 @@
+Install instructions:
+
+1. go to:
+C:\Users\Your_Name\Documents\Paradox Interactive\Stellaris\mod
+
+3. unzip the winrar
+
+2. put the Folder in the mod folder 
+
+3. take the .MOD files and put them into C:\Users\Your_Name\Documents\Paradox Interactive\Stellaris\mod   there should be already .mod files if you using steam workshop. 
+   
+
+4. Start Stellaris over steam and search in the launcher for the mod names and activate them.
+
+5. if it doesn´t work then make a new mod in the Stellaris launcher and put the content into that one.

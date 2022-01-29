@@ -1,0 +1,21 @@
+origin_coruscant = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_remnant.dds"
+	picture = GFX_sw_coruscant_origin
+	
+	starting_colony = pc_tropical
+	initializer = "coruscant_system_initializer"
+	max_once_global = yes
+
+	description = "origin_tooltip_sw_coruscant"
+
+	traits = {
+
+	}
+
+	advanced_start = yes
+
+	random_weight = {
+		base = 0
+	}
+}

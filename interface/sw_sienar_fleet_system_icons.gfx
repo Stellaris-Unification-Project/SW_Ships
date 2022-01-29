@@ -1,0 +1,78 @@
+# TIE Fighter
+
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ship_part_fighter_missile"
+		texturefile = "gfx/interface/icons/ship_parts/sw_ship_part_fighter_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_scout"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_scout.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_fighter"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_fighter.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_fighter_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_fighter_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_interceptor"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_interceptor.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_interceptor_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_interceptor_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_advanced"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_advanced.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_hunter"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_hunter.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_hunter_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_hunter_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_phantom"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_phantom.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_defender"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_defender.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_defender_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_defender_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_bomber"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_bomber.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_bomber_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_bomber_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_torpedo"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tie_torpedo_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_tie_torpedo_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_slave1_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/st_ship_part_patrol_craft_weapon.dds"
+	}
+}
+	
+	
+	
+	
+	

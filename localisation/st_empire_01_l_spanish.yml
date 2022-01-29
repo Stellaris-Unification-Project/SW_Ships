@@ -1,0 +1,800 @@
+﻿l_spanish:
+
+ ###################################
+ # Empire Ships: Reborn (Added 2020)
+ ####################################
+ 
+ #Techs
+ 
+ tech_heavy_corvette:0 "Corellian Shipyards Project: Cobalt Romulus"
+ tech_heavy_corvette_desc:0 "Research into the combat application of the CR-90 hull may prove fruitful"
+ TECH_UNLOCK_HEAVY_CORVETTE_CONSTRUCTION_TITLE:0 "§HUnlocks Corvette Section:§! Assault"
+ TECH_UNLOCK_HEAVY_CORVETTE_CONSTRUCTION_DESC:0 "Unlocks the CR-90 Combat Configuration for the Corvette class"
+ 
+ tech_frigates:0 "Kuat Drive Yards Project: Nimbus"
+ tech_frigates_desc:0 "Kuat Drive Yards have approached us with a very promising ship design. It needs some refinement, but the ship opens up new possibilities for future designs"
+ TECH_UNLOCK_FRIGATE_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Frigate"
+ TECH_UNLOCK_FRIGATE_CONSTRUCTION_DESC:0 "Unlocks the Frigate ship class, giving immediate access to the Kuat Weapon Platform hull type"
+ 
+ tech_nebulon:0 "Kuat Drive Yards Project: EF-76"
+ tech_nebulon_desc:0 "KDY Project EF-76 promises a powerful all round escort frigate, with a highly modular loadout"
+ TECH_UNLOCK_NEBULON_CONSTRUCTION_TITLE:0 "§HUnlocks Frigate Type:§! EF-76 Nebulon-B"
+ TECH_UNLOCK_NEBULON_CONSTRUCTION_DESC:0 "Unlocks the EF-76 Nebulon-B Escort Frigate sections for use in the ship designer"
+ 
+ tech_vigil:0 "Kuat Drive Yards Project: Vigil"
+ tech_vigil_desc:0 "KDY project Vigil aims to deliver a powerful Frigate, boasting large amounts of firepower for its size and good all around utility"
+ TECH_UNLOCK_VIGIL_CONSTRUCTION_TITLE:0 "§HUnlocks Frigate Type:§! Vigil Class"
+ TECH_UNLOCK_VIGIL_CONSTRUCTION_DESC:0 "Unlocks the Vigil Class Sections for the Frigate Ship Type"
+ 
+ tech_escort_carriers:0 "Fondor Shipyards Project: Hunter"
+ tech_escort_carriers_desc:0 "FSP Project Hunter is a product of our research into powerful fighters and bombers. Small dedicated carriers will make great force projectors"
+ TECH_UNLOCK_ESCORT_CARRIER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Escort Carrier"
+ TECH_UNLOCK_ESCORT_CARRIER_CONSTRUCTION_DESC:0 "Unlocks the Escort Carrier ship class, with immediate access to the Imperial Escort Carrier sections"
+ 
+ tech_tonnfalk:0 "Kuat Drive Yards Project: Tycho Foxtrot"
+ tech_tonnfalk_desc:0 "KDY Project Tycho Foxtrot builds on the design of the Imperial Escort Carrier to offer more hanger space than the IEC."
+ TECH_UNLOCK_TONN_CONSTRUCTION_TITLE:0 "§HUnlocks Escort Carrier Type:§! Tonn Falk"
+ TECH_UNLOCK_TONN_CONSTRUCTION_DESC:0 "Unlocks the Tonn Falk Escort Carrier Sections"
+ 
+ tech_light_cruisers:0 "Rendilli Star Drive Project: 1145V"
+ tech_light_cruisers_desc:0 "RSD Project 1145V was recovered from a Black Market raid on Coruscant after being stolen by the Hutt Clan. The specifications detail a powerful missile delivery system and good all around firepower"
+ TECH_UNLOCK_LIGHT_CRUISER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Light Cruiser"
+ TECH_UNLOCK_LIGHT_CRUISER_CONSTRUCTION_DESC:0 "Unlocks the Light Cruiser Ship Class and gives immediate access to the Victory Sections"
+ 
+ tech_vindicator:0 "Kuat Drive Yards Project: Vindication"
+ tech_vindicator_desc:0 "KDY Project Vindication takes lessons learnt from RSD Project 1145V and applies them to a vessel of similar size"
+ TECH_UNLOCK_VINDICATOR_CONSTRUCTION_TITLE:0 "§HUnlocks Light Cruiser Type:§! Vindicator"
+ TECH_UNLOCK_VINDICATOR_CONSTRUCTION_DESC:0 "Unlocks the Vindicator Light Cruiser Sections"
+ 
+ tech_light_interdictor:0 "Kuat Drive Yards Prototype 418"
+ tech_light_interdictor_desc:0 "KDY prototype 418 was produced alongside Project Vindication. 418 boasts incredibly advanced gravity well technology, allowing us to prevent our enemies from escaping tactical combat"
+ TECH_UNLOCK_IMMO_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Light Interdictor"
+ TECH_UNLOCK_IMMO_CONSTRUCTION_DESC:0 "Unlocks the Immobilizer 418 Hull"
+ 
+ tech_medium_cruisers:0 "Rothana Heavy Engineering Intiative 214"
+ tech_medium_cruisers_desc:0 "We have tasked RHE with modernizing the old Acclamator Assault Ship hull into a combat vessel. The result should be an excellent medium cruiser.
+ TECH_UNLOCK_MEDIUM_CRUISER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Medium Cruiser"
+ TECH_UNLOCK_MEDIUM_CRUISER_CONSTRUCTION_DESC:0 "Unlocks the Medium Cruiser Ship Class and gives immediate access to the Acclamator II Sections"
+ 
+ tech_gladiator:0 "Rendilli Star Drive Project: Gladiator"
+ tech_gladiator_desc:0 "RSD Project Gladiator offers powerful strike fighter force projection without sacrificing much of the direct fire solutions"
+ TECH_UNLOCK_GLADIATOR_CONSTRUCTION_TITLE:0 "§HUnlocks Medium Cruiser Type:§! Gladiator"
+ TECH_UNLOCK_GLADIATOR_CONSTRUCTION_DESC:0 "Unlocks the Gladiator Medium Cruiser Sections"
+ 
+ tech_heavy_cruisers:0 "RSD/KDY Joint Project: Victor Initiative"
+ tech_heavy_cruisers_desc:0 "The Victor Initiative is a suprising joint project from the greatest minds at RSD and KDY. They appear to be designing a very powerful cruiser sized vessel"
+ TECH_UNLOCK_HEAVY_CRUISER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Heavy Cruiser"
+ TECH_UNLOCK_HEAVY_CRUISER_CONSTRUCTION_DESC:0 "Unlocks the Heavy Cruiser Ship Class and gives immediate access to the Victory I Sections"
+ 
+ tech_victory_2:0 "RSD/KDY Joint Project: Victor II
+ tech_victory_2_desc:0 "RSD and KDY have promised a revision of the original Victor Project, supposedly offering superior firepower and subsystems"
+ TECH_UNLOCK_VICTORY_2_CONSTRUCTION_TITLE:0 "§HUnlocks Heavy Cruiser Type:§! Victory II"
+ TECH_UNLOCK_VICTORY_2_CONSTRUCTION_DESC:0 "Unlocks the Victory II Heavy Cruiser Sections"
+ 
+ tech_star_cruisers:0 "Kuat Drive Yards Project: Skirmisher"
+ tech_star_cruisers_desc:0 "KDY Project Skirmisher proposes a radical new design. A new take on the role of a cruiser. This may lead into something... wonderful"
+ TECH_UNLOCK_STAR_CRUISER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Star Cruiser"
+ TECH_UNLOCK_STAR_CRUISER_CONSTRUCTION_DESC:0 "Unlocks the Star Cruiser Ship class"
+ 
+ tech_star_destroyers:0 "Kuat Drive Yards Project: Venator"
+ tech_star_destroyers_desc:0 "KDY Project Venator offers a massive vessel, with the capability to perform both ship-to-ship and carrier operations."
+ TECH_UNLOCK_VENATOR_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Star Destroyer"
+ TECH_UNLOCK_VENATOR_CONSTRUCTION_DESC:0 "Unlocks the Star Destroyer Ship Class and gives immediatea access to the Venator Sections"
+ 
+ tech_isd_1:0 "Kuat Drive Yards Imperator Initiative"
+ tech_isd_1_desc:0 "The KDY Imperator answers the call of the tarkin doctrine perfectly. Large weapon emplacements and a sizeable star fighter complement makes this class of vessel incredibly powerful"
+ TECH_UNLOCK_ISD_1_CONSTRUCTION_TITLE:0 "§HUnlocks Star Destroyer Type:§! Imperial I"
+ TECH_UNLOCK_ISD_1_CONSTRUCTION_DESC:0 "Unlocks the Imperial I Star Destroyer Sections"
+ 
+ tech_isd_2:0 "Kuat Drive Yards Imperator II Initiative"
+ tech_isd_2_desc:0 "The Imperator II is a massive improvement on the Imperator I. It boasts more powerful subsystems and weapons, albiet at the expense of versatility"
+ TECH_UNLOCK_ISD_2_CONSTRUCTION_TITLE:0 "§HUnlocks Star Destroyer Type:§! Imperial II"
+ TECH_UNLOCK_ISD_2_CONSTRUCTION_DESC:0 "Unlocks the Imperial II Star Destroyer Sections"
+ 
+ tech_isd_conq:0 "Kuat Drive Yards Project: Conqueror"
+ tech_isd_conq_desc:0 "Is... is that a Death Star laser... on... on a Star Destroyer?"
+ TECH_UNLOCK_ISD_CONQ_CONSTRUCTION_TITLE:0 "§HUnlocks Star Destroyer Type:§! Conqueror"
+ TECH_UNLOCK_ISD_CONQ_CONSTRUCTION_DESC:0 "Unlocks the Conqueror Star Destroyer Sections"
+ 
+ tech_isd_dominator:0 "Kuat Drive Yards Project: Domination"
+ tech_isd_dominator_desc:0 "KDY Project Domination takes the concept of the Immobilizer 418 and scales it up to the size of a star destroyer. Tarkin will be most pleased"
+ TECH_UNLOCK_ISD_DOM_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Heavy Interdictor"
+ TECH_UNLOCK_ISD_DOM_CONSTRUCTION_DESC:0 "Unlocks the Heavy Interdictor Ship Class"
+ 
+ tech_battlecruisers:0 "Kuat Drive Yards Project: Secutor"
+ tech_battlecruisers_desc:0 "KDY project Secutor is an enourmous carrier vessel. It bears some ressemblance to the Venator project, but much, much larger"
+
+ tech_allegiance:0 "RSD/KDY/RHE Joint Initiative: Allegiance"
+ tech_allegiance_desc:0 "The Allegiance Initiative is an enourmous joint project from the largest corporations within our nation. They promise to deliver a vessel unparalled in firepower"
+ TECH_UNLOCK_ST_ALLEGIANCE_01_CONSTRUCTION_TITLE:0 "§HUnlocks Battlecruiser Type:§! Allegiance"
+ TECH_UNLOCK_ST_ALLEGIANCE_01_CONSTRUCTION_DESC:0 "Unlocks the Allegiance Battlecruiser Sections"
+ 
+ tech_super_star_destroyers:0 "Kuat Drive Yards Project: Mandator III"
+ tech_super_star_destroyers_desc:0 "KDY Project Mandator III is a revival of the Mandator line of dreadnoughts. This new design offers incredible firepower and survivability, a true staple of the Tarkin doctrine"
+ TECH_UNLOCK_SUPER_STAR_DESTROYER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Class:§! Super Star Destroyer"
+ TECH_UNLOCK_SUPER_STAR_DESTROYER_CONSTRUCTION_DESC:0 "Unlocks the Super Star Destroyer Ship Class"
+ 
+ tech_diamond_boron_1:0 "Diamond-Boron Explosives"
+ tech_diamond_boron_1_desc:0 "Kuat Drive Yards has created a powerful new type of explosive. They have also created an improved version of the Broadside Destroyer to carry these explosives"
+ TECH_UNLOCK_MISSILE_DESTROYER_TITLE:0 "§HUnlocks Destroyer Type:§! Broadside (Missile)"
+ TECH_UNLOCK_MISSILE_DESTROYER_DESC:0 "Unlocks the Missile Broadside Destroyer Section to allow the use of Diamond-Boron Missiles"
+ 
+ tech_diamond_boron_2:0 "Enhanced Diamond-Boron Explosives"
+ tech_diamond_boron_2_desc:0 "KDY has found a way to increase the power of our Diamond Boron Missiles substantially"
+ 
+ #Components
+ 
+ SW_DIAMOND_BORON_1:0 "Diamond Boron Missile Launcher"
+ SW_DIAMOND_BORON_1_DESC:0 "Diamond Boron Missiles are extremely powerful explosive weapons capable of deal massive damage to slow or stationary targets"
+ G_DIAMOND_BORON_1:0 "Diamond Boron Missile Launcher"
+ SW_DIAMOND_BORON_2:0 "Enhanced Diamond Boron Missile Launcher"
+ SW_DIAMOND_BORON_2_DESC:0 "These Improved DMBs fire missiles with enhanced payloads capable of deal even more raw explosive power"
+ G_DIAMOND_BORON_2:0 "Enhanced Diamond Boron Missile Launcher"
+ 
+ COMBAT_COMPUTER_SW_SWARM_DEFAULT:0 "Basic Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_SWARM_BASIC:0 "Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_SWARM_ADVANCED:0 "Advanced Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_SWARM_SAPIENT:0 "Sapient Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_SWARM_AUTONOMOUS:0 "Autonomous Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_SWARM_PRECOG:0 "Precognitive Combat Computer (Swarm)"
+ COMBAT_COMPUTER_SW_PICKET_DEFAULT:0 "Basic Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_PICKET_BASIC:0 "Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_PICKET_ADVANCED:0 "Advanced Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_PICKET_SAPIENT:0 "Sapient Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_PICKET_AUTONOMOUS:0 "Autonomous Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_PICKET_PRECOG:0 "Precognitive Combat Computer (Picket)"
+ COMBAT_COMPUTER_SW_LINE_DEFAULT:0 "Basic Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_LINE_BASIC:0  "Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_LINE_ADVANCED:0 "Advanced Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_LINE_SAPIENT:0 "Sapient Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_LINE_AUTONOMOUS:0 "Autonomous Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_LINE_PRECOG:0 "Precognitive Combat Computer (Line)"
+ COMBAT_COMPUTER_SW_ARTILLERY_DEFAULT:0 "Basic Combat Computer (Artillery)"
+ COMBAT_COMPUTER_SW_ARTILLERY_BASIC:0 "Combat Computer (Artillery)"
+ COMBAT_COMPUTER_SW_ARTILLERY_ADVANCED:0 "Advanced Combat Computer (Artillery)"
+ COMBAT_COMPUTER_SW_ARTILLERY_SAPIENT:0 "Sapient Combat Computer (Artillery)"
+ COMBAT_COMPUTER_SW_ARTILLERY_AUTONOMOUS:0 "Autonomous Combat Computer (Artillery)"
+ COMBAT_COMPUTER_SW_ARTILLERY_PRECOG:0 "Precognitive Combat Computer (Artillery)"
+ 
+ st_Empire_fighter_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_fighter_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_fighter_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_fighter_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_fighter_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_escort_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_escort_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_escort_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_escort_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_escort_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_cruiser_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_cruiser_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_cruiser_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_cruiser_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_cruiser_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_battleship_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_battleship_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_battleship_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_battleship_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_battleship_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_interdictor_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_interdictor_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_interdictor_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_interdictor_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_interdictor_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_SSD_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_SSD_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_SSD_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_SSD_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_SSD_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ st_Empire_dreadnought_SHIP_THRUSTER_1:0 "Chemical Thrusters"
+ st_Empire_dreadnought_SHIP_THRUSTER_2:0 "Ion Thusters"
+ st_Empire_dreadnought_SHIP_THRUSTER_3:0 "Plasma Thrusters"
+ st_Empire_dreadnought_SHIP_THRUSTER_4:0 "Impulse Thrusters"
+ st_Empire_dreadnought_SHIP_THRUSTER_5:0 "Dark Matter Thrusters"
+ 
+ st_Empire_fighter_FISSION_REACTOR:0 "Power Core"
+ 
+ st_Empire_escort_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_cruiser_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_carrier_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_interdictor_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_battleship_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_SSD_FISSION_REACTOR:0 "Fission Reactor"
+ st_Empire_dreadnought_FISSION_REACTOR:0 "Fission Reactor"
+ 
+ st_Empire_escort_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_cruiser_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_carrier_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_interdictor_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_battleship_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_SSD_FUSION_REACTOR:0 "Fusion Reactor"
+ st_Empire_dreadnought_FUSION_REACTOR:0 "Fusion Reactor"
+ 
+ st_Empire_escort_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_cruiser_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_carrier_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_interdictor_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_battleship_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_SSD_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ st_Empire_dreadnought_COLD_FUSION_REACTOR:0 "Cold Fusion Reactor"
+ 
+ st_Empire_escort_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_cruiser_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_carrier_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_interdictor_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_battleship_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_SSD_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ st_Empire_dreadnought_ANTIMATTER_REACTOR:0 "Antimatter Reactor"
+ 
+ st_Empire_escort_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_cruiser_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_carrier_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_interdictor_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_battleship_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_SSD_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ st_Empire_dreadnought_ZERO_POINT_REACTOR:0 "Zero Point Reactor"
+ 
+ st_Empire_escort_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_cruiser_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_carrier_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_interdictor_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_battleship_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_SSD_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ st_Empire_dreadnought_DARK_MATTER_REACTOR:0 "Dark Matter Reactor"
+ 
+ ###################################
+ # Diplomacy text
+ ####################################
+ 
+ FLAG_CATEGORY_ST_Empire:0 "Event Empire Ships"
+ 
+ 
+ # General Greetings
+ EMPIRE:1 "Empire"
+ 
+ EMPIRE_LITE:1 "Empire Lite"
+
+ ##################################################
+ # Additional Localisation Added for Reborn Project
+ ##################################################
+
+ # Ship Component Sets
+ SW_ANNI_BISMARK:0 ""
+ SW_ANNI_BISMARK_DESC:0 ""
+ SW_ANNI_LARGE_TURRET:0 ""
+ SW_ANNI_LARGE_TURRET_DESC:0 ""
+ SW_ANNI_BALL:0 ""
+ SW_ANNI_BALL_DESC:0 ""
+ SW_ANNI_ION_BALL:0 ""
+ SW_ANNI_ION_BALL_DESC:0 ""
+ 
+ ####################################
+ # Event
+ ####################################
+ 
+ stempiretech.1.name:0 "Galactic Empire Tech"
+ stempiretech.1.desc:0 "This will give you Empire techs to start with."
+ 
+ tech_st_empire_01:0 "Galactic Empire Ship sizes"
+ tech_st_empire_01_desc:0 "Giving you the ability to build Galactic Empire ships."
+ 
+ tech_st_dreadnought_01:0 "Galactic Empire Dreadnought"
+ tech_st_dreadnought_01_desc:0 "A ship even bigger then the Imperial Star Destroyer- class."
+ 
+ tech_sw_empire_anni:0 "Annihilator SSD"
+ tech_sw_empire_anni_desc:0 "New ship design, the Annihilator Super Star Destroyer, not designable."
+
+ TECH_UNLOCK_ST_DREADNOUGHT_01_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Battlecruiser"
+ TECH_UNLOCK_ST_DREADNOUGHT_01_CONSTRUCTION_DESC:0 "§HEmpire Dreadnought§!\nEven bigger then the ISD class, with a terrifying weaponsload and the base for Super Star Destroyer ships."
+ 
+ TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE:0 "§ESienar Fleet Systems Research§!"
+ TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC:0 "Researching the technologies in this research chain will grant you access to the Sienar Fleet Systems star fighter lineup."
+
+ TECH_UNLOCK_EMPIRE_ANNI_CHAIN_TITLE:0 "§EAnnihilator SSD§!"
+ TECH_UNLOCK_EMPIRE_ANNI_CHAIN_DESC:0 "Unlocks the Annihilator special project."
+ 
+ sw_empire_01_anni_project:0 "Annihilator SSD"
+ sw_empire_01_anni_project_DESC:0 "New, predesigned and specialized shipclass"
+ 
+ SW_EMPIRE_ANNI_Project:0 "Annihilator SSD"
+ SW_EMPIRE_ANNI_Project_DESC:0 "With the new ship plans our engineering department has budgeted for the construction of a new cruiser sized ship, and created a special project towards the manufacturing. Please look at your Situation Log to engange the project.\n\nThe designer informed us that the ship will be comissioned once."
+ SW_EMPIRE_ANNI_Completed:0 "Our new Annihilator Super Star Destroyer has been build around our capital planet."
+ 
+ ####################################
+ # Hull Sizes (Updated 2020)
+ ####################################
+
+ ST_EMPIRE_01_ESCORT:0 "Frigate"
+ st_Empire_01_Escort:0 "Frigate"
+ st_Empire_01_Escort_plural:0 "Frigates"
+
+ ST_LIGHT_CRUISER_01:0 "Light Cruiser"
+ st_light_cruiser_01:0 "Light Cruiser"
+ st_light_cruiser_01_plural:0 "Light Cruisers"
+ 
+ ST_CRUISER_01:0 "Medium Cruiser"
+ st_Cruiser_01:0 "Medium Cruiser"
+ st_Cruiser_01_plural:0 "Medium Cruisers"
+ 
+ ST_CRUISER_02:0 "Heavy Cruiser"
+ st_Cruiser_02:0 "Heavy Cruiser"
+ st_Cruiser_02_plural:0 "Heavy Cruisers"
+ 
+ ST_E_BATTLECRUISER:0 "Star Cruiser"
+ st_E_Battlecruiser:0 "Star Cruiser"
+ st_E_Battlecruiser_plural:0 "Star Cruisers"
+ 
+ ST_BATTLESHIP_01:0 "Star Destroyer"
+ st_battleship_01:0 "Star Destroyer"
+ st_battleship_01_plural:0 "Star Destroyers"
+ 
+ ST_BATTLESHIP_02:0 "Star Destroyer"
+ st_battleship_02:0 "Star Destroyer"
+ st_battleship_02_plural:0 "Star Destroyers"
+ 
+ ST_DREADNOUGHT_01:0 "Battlecruiser"
+ st_dreadnought_01:0 "Battlecruiser"
+ st_dreadnought_01_plural:0 "Battlecruisers"
+ 
+ ST_SSD:0 "Super Star Destroyer"
+ st_SSD:0 "Super Star Destroyer"
+ st_SSD_plural:0 "Super Star Destroyers"
+ 
+ ST_CARRIER_01:0 "Escort Carrier"
+ st_Carrier_01:0 "Escort Carrier"
+ st_Carrier_01_plural:0 "Escort Carriers"
+ 
+ ST_HEAVY_INT_01:0 "Heavy Interdictor"
+ st_heavy_Int_01:0 "Heavy Interdictor"
+ st_heavy_Int_01_plural:0 "Heavy Interdictors"
+ 
+ ST_LIGHT_INT_01:0 "Light Interdictor"
+ st_light_Int_01:0 "Light Interdictor"
+ st_light_Int_01_plural:0 "Light Interdictors"
+ 
+ ST_EMPIRE_FIGHTER:0 "Fighter"
+ st_Empire_fighter:0 "Fighter"
+ st_Empire_fighter_plural:0 "Fighters"
+ 
+ ST_EMPIRE_BOMBER:0 "Bomber"
+ st_Empire_bomber:0 "Bomber"
+ st_Empire_bomber_plural:0 "Bombers"
+ 
+ ST_EMPIRE_PATROL:0 "Patrol Craft"
+ st_Empire_Patrol:0 "Patrol Craft"
+ st_Empire_Patrol_plural:0 "Patrol Crafts"
+ 
+ SW_ANNIHILATOR:0 ""
+ sw_Annihilator:0 ""
+ sw_Annihilator_plural:0 ""
+ 
+ ####################################
+ # Corvette
+ #################################### 
+ 
+ CORVETTE_MID_H1:0 "Hangar Boat"
+ CORVETTE_MID_M1S2:0 "Assault"
+ 
+ ####################################
+ # Destroyer
+ #################################### 
+ 
+ DESTROYER_BOW_G2:0 "Missile Boat"
+ 
+ ####################################
+ # Escort Vigil 
+ #################################### 
+ 
+ ST_ESCORT_BOW_M2S3:0 "Vigil Corvette "
+ ST_ESCORT_STERN_S4:0 "Vigil Back I"
+ ST_ESCORT_STERN_M1S2:0 "Vigil Back II"
+ 
+ ####################################
+ # Escort Kuat Weapon
+ #################################### 
+ 
+ ST_ESCORT_BOW_L2:0 "Kuat Weapon Plattform"
+ ST_W_ESCORT_STERN_S4:0 "Kuat Weapon Back I"
+ ST_W_ESCORT_STERN_M2:0 "Kuat Weapon Back II"
+ 
+ ####################################
+ # Escort Nebulon- B
+ ####################################
+ 
+ ST_N_ESCORT_BOW_S6:0 "Nebulon-B Main Hull"
+ ST_N_EESCORT_STERN_S2H1:0 "Nebulon-B Back I"
+ ST_N_ESCORT_STERN_M2:0 "Nebulon-B Back II"
+ 
+ ####################################
+ # Cruiser Acclamator
+ ####################################
+ 
+ ST_A_CRUISER_BOW_M2S2:0 "Acclamator Front I"
+ ST_A_CRUISER_BOW_M3:0 "Acclamator Front II"
+ ST_A_CRUISER_MID_M3L1:0 "Acclamator Assault Ship"
+ ST_A_CRUISER_STERN_M2:0 "Acclamator Back I"
+ ST_A_CRUISER_STERN_S4:0 "Acclamator Back II"
+ 
+ ####################################
+ # Cruiser Gladiator
+ ####################################
+ 
+ ST_G_CRUISER_BOW_M2S2:0 "Gladiator Front I"
+ ST_G_CRUISER_BOW_M1L1:0 "Gladiator Front II"
+ ST_G_CRUISER_MID_M1L1H1:0 "Gladiator SD"
+ ST_G_CRUISER_STERN_M2:0 "Gladiator Back I"
+ ST_G_CRUISER_STERN_S2M1:0 "Gladiator Back II"
+ 
+ ####################################
+ # Carrier Escort Carrier
+ ####################################
+ 
+ ST_E_CARRIER_BOW_M2S2:0 "Escort Carrier Front I"
+ ST_E_CARRIER_BOW_M3:0 "Escort Carrier Front II"
+ ST_CARRIER_BOW_H2:0 "Additional Hangarbay"
+ ST_E_CARRIER_MID_S2H2:0 "Imperial Escort Carrier"
+ ST_E_CARRIER_STERN_S2M1:0 "Escort Carrier Back I"
+ ST_E_CARRIER_STERN_M2:0 "Escort Carrier Back II"
+ 
+ ####################################
+ # Carrier TonnFalk
+ ####################################
+ 
+ ST_T_CARRIER_BOW_M2S2:0 "TonnFalk Front I"
+ ST_T_CARRIER_MID_S2H3:0 "TonnFalk Escort Carrier"
+ ST_T_CARRIER_STERN_S2M2:0 "TonnFalk Back I"
+ ST_CARRIER_STERN_H1:0 "Additional Hangarbay II"
+ 
+ ####################################
+ # Cruiser Victory
+ ####################################
+ 
+ ST_V_CRUISER_BOW_M2S2:0 "Victory Front I"
+ ST_V_CRUISER_BOW_M3:0 "Victory Front II"
+ ST_V_CRUISER_BOW_M1H1:0 "Victory I Hangarbay"
+ ST_V_CRUISER_MID_S2M2L1:0 "Victory I SD"
+ ST_V_CRUISER_STERN_M2:0 "Victory Back I"
+ ST_V_CRUISER_STERN_S2M1:0 "Victory Back II"
+ 
+ ####################################
+ # Cruiser Victory II
+ ####################################
+ 
+ ST_VII_CRUISER_BOW_M2S2:0 "Victory II Front I"
+ ST_VII_CRUISER_BOW_M3:0 "Victory II Front II"
+ ST_VII_CRUISER_BOW_M1H1:0 "Victory II Hangarbay"
+ ST_VII_CRUISER_MID_S2M2L1:0 "Victory II SD"
+ ST_VII_CRUISER_STERN_M2:0 "Victory II Back I"
+ ST_VII_CRUISER_STERN_S2M1:0 "Victory II Back II"
+ 
+ ####################################
+ # Light Interdictor Immobilizer
+ ####################################
+ 
+ ST_LIGHT_INT_BOW_M2P2:0 "Anti Strike Craft"
+ ST_LIGHT_INT_BOW_M2S2:0 "Immobilizer Front"
+ ST_LIGHT_INT_MID_1HS2M1:0 "Immobilizer 418 Cruiser"
+ ST_LIGHT_INT_STERN_M1S2:0 "Immobilizer Back"
+
+ 
+ ####################################
+ # Light Cruiser Vindicator
+ ####################################
+ 
+ ST_LIGHT_CRUISER_BOW_M2P2:0 "Vindicator PD"
+ ST_LIGHT_CRUISER_BOW_M2S2:0 "Vindicator Front"
+ ST_LIGHT_CRUISER_MID_H1L1:0 "Vindicator Cruiser"
+ ST_LIGHT_CRUISER_STERN_M1S2:0 "Vindicator Back I"
+ ST_LIGHT_CRUISER_STERN_M2:0 "Vindicator Back II"
+ 
+ ####################################
+ # Light Cruiser Victory
+ ####################################
+ 
+ ST_LIGHT_CRUISER_VF_BOW_T2S2:0 "Victory Torpedo"
+ ST_LIGHT_CRUISER_VF_BOW_M2S2:0 "Victory Front"
+ ST_LIGHT_CRUISER_VF_MID_L2:0 "Victory Frigate MKII "
+ ST_LIGHT_CRUISER_VF_STERN_M1S2:0 "Victory Back"
+ ST_LIGHT_CRUISER_VF_STERN_T2:0 "Victory Back Torpedo"
+ 
+ ####################################
+ # Battlecruiser Procursator
+ ####################################
+ 
+ ST_P_BATTLECRUISER_BOW_M2S2:0 "Procursator Front I"
+ ST_P_BATTLECRUISER_BOW_M3:0 "Procursator Front II"
+ ST_P_BATTLECRUISER_MID_2S2M3L:0 "Procursator SD"
+ ST_P_BATTLECRUISER_STERN_M3:0 "Procursator Back I"
+ ST_P_BATTLECRUISER_STERN_S2M2:0 "Procursator Back II"
+ 
+ ####################################
+ # Battleship ISD Conq
+ ####################################
+ 
+ ST_C_BATTLESHIP_BOW_S2M3:0 "ISD Conqueror Front I"
+ ST_C_BATTLESHIP_BOW_S4M2:0 "ISD Conqueror Front II"
+ ST_C_BATTLESHIP_MID_X2M4:0 "ISD Conqueror (2 XL)"
+ ST_C_BATTLESHIP_MID_T1M4:0 "ISD Conqueror (1 T)"
+ ST_C_BATTLESHIP_MID2_L4:0 "Conqueror S Weapon Bank"
+ ST_C_BATTLESHIP_STERN_M2:0 "ISD Conqueror Back I"
+ 
+ 
+ ####################################
+ # Battleship Dominator
+ ####################################
+ 
+ ST_D_BATTLESHIP_BOW_S2M3L2:0 "ISD Interdictor Front I"
+ ST_D_BATTLESHIP_BOW_S4M2L1H1:0 "ISD Interdictor Front II"
+ ST_D_BATTLESHIP_BOW_S4M4L1:0 "ISD Interdictor Front II"
+ ST_D_BATTLESHIP_MID_S4H4:0 "ISD Interdictor"
+ ST_D_BATTLESHIP_STERN_S2M1L1:0 "ISD Interdictor Back I"
+ ST_D_BATTLESHIP_STERN_S4L1:0 "ISD Interdictor Back II"
+ 
+ ####################################
+ # Battleship ISD I & II
+ ####################################
+ 
+ ST_I_BATTLESHIP_BOW_S4M2L1H1:0 "ISD Front I"
+ ST_I_BATTLESHIP_BOW_S4M4L1:0 "ISD Front II"
+ ST_I_BATTLESHIP_MID_S4M2H3:0 "ISD I"
+ ST_II_BATTLESHIP_MID_S2M2H4:0 "ISD II"
+ ST_I_BATTLESHIP_STERN_S4L1:0 "ISD Back I"
+ ST_I_BATTLESHIP_STERN_L8:0 "Octuple Bank"
+ ST_I_BATTLESHIP_STERN_L4:0 "Small Octuple Bank"
+ 
+
+ ####################################
+ # Imperial Venator
+ ####################################
+ 
+ ST_VENATOR_BOW_S4M2L2:0 "Venator Front I"
+ ST_VENATOR_BOW_M4:0 "Venator Front II"
+ ST_VENATOR_MID_L2M2H2:0 "Venator SD"
+ ST_VENATOR_MID2_L4:0 "Venator S Weapon Bank"
+ ST_VENATOR_MID2_L8:0 "Venator L Weapon Bank"
+ ST_VENATOR_MID2_XL:0 "Venator XL"
+ ST_VENATOR_STERN_S4L1:0 "Venator Back I"
+ ST_VENATOR_STERN_S2:0 "Venator Back II"
+ 
+
+ ####################################
+ # Allegiance Battlecruiser
+ ####################################
+ 
+ ST_A_DREADNOUGHT_BOW_S4M4:0 "Allegiance Front I"
+ ST_A_DREADNOUGHT_BOW_S2M5:0 "Allegiance Front II"
+ ST_A_DREADOUGHT_BOW_M6:0 "Allegiance Front III"
+ ST_A_DREADNOUGHT_MID1_M4L3:0 "Allegiance Battlecruiser"
+ ST_A_DREADNOUGHT_MID1_S2M3L3:0 "Allegiance Battlecruiser"
+ ST_A_DREADNOUGHT_MID2_L6:0 "Small Weapon Bank"
+ ST_A_DREADNOUGHT_MID2_L12:0 "Large Weapon Bank"
+ ST_A_DREADNOUGHT_STERN_S2M6:0 "Allegiance Back"
+ 
+ ####################################
+ # Secutor Battlecruiser
+ ####################################
+ 
+ ST_S_DREADNOUGHT_BOW_S4M4:0 "Secutor Front I"
+ ST_S_DREADNOUGHT_BOW_S2M5:0 "Secutor Front II"
+ ST_S_DREADOUGHT_BOW_M6:0 "Secutor Front III"
+ ST_S_DREADNOUGHT_MID1_M4L3: "Secutor Battlecruiser"
+ ST_S_DREADNOUGHT_MID1_S2M3L3:0 "Secutor Battlecruiser"
+ ST_S_DREADNOUGHT_MID2_H6:0 "Secutor Small Hangarbay"
+ ST_S_DREADNOUGHT_MID2_H12:0 "Secutor Large Hangarbay"
+ ST_S_DREADNOUGHT_STERN_S2M6:0 "Secutor Back"
+ 
+ ####################################
+ # SSD Bellator
+ ####################################
+ 
+ ST_SSD_BOW_M4L4:0 "Bellator Front I"
+ ST_SSD_BOW_M8L2:0 "Bellator Front II"
+ ST_SSD_BOW_L6:0 "Bellator Front III"
+ ST_SSD_MID_M4L4:0 "Bellator SSD"
+ ST_SSD_MID_M8L2:0 "Bellator SSD"
+ ST_SSD_MID2_S4M4L4:0 "Bellator Mid I"
+ ST_SSD_MID2_M10L2:0 "Bellator Mid II"
+ ST_SSD_STERN_M4L2:0 "Bellator Back"
+ 
+ ####################################
+ # Empire Fighter
+ ####################################
+ 
+ E_FIGHTER_MID_TIE_SCOUT:0 "TIE Scout"
+ E_FIGHTER_MID_TIE_FIGHTER:0 "TIE/LN Fighter"
+ E_FIGHTER_MID_TIE_INT:0 "TIE/IN Interceptor"
+ E_FIGHTER_MID_TIE_HUNTER:0 "TIE/HU Hunter"
+ 
+ ####################################
+ # Bomber
+ ####################################
+ 
+ E_BOMBER_MID_TIE_BOMBER:0 "TIE/SA Bomber" 
+ E_BOMBER_MID_TIE_DEFENDER:0 "TIE/D Defender"
+ E_BOMBER_MID_TIE_TORPEDO:0 "TIE/TB Torpedo Bomber"
+ 
+ ####################################
+ # Patrol Craft
+ ####################################
+ 
+ E_PATROL_MID_SLAVE1:0 "Slave 1"
+ 
+ ###################################
+ # Annihilator SSD
+ ##################################
+
+ sw_Empire_Ani_section:0 "Annihilator SSD"
+ 
+ #########################
+ # TIE Fighter Tech
+ #########################
+ 
+ tech_tie_scout:0 "TIE Scout"
+ tech_tie_scout_desc:0 "The TIE/sr starfighter, or TIE scout, was a limited production TIE Series starfighter used by the Galactic Empire as a scout and light reconnaissance vessel. It was one of the many TIE variants in service during the Galactic Civil War."
+ 
+ tech_tie_fighter:0 "TIE/LN Fighter"
+ tech_tie_fighter_desc:0 "The TIE/LN starfighter, commonly known as the TIE fighter, was the signature starfighter of the Galactic Empire. Instantly recognizable from the roar of their engines, they exuded Imperial power and prestige across the galaxy, seeing use throughout the Empire's political existence."
+ 
+ tech_tie_interceptor:0 "TIE/IN Interceptor"
+ tech_tie_interceptor_desc:0 "The TIE/IN Interceptor, also known as TIE Interceptor, was a type of TIE fighter used by the Galactic Empire, most notably during the Battle of Endor. It was identifiable by the addition of four arrow-shaped panels tipped with laser cannons."
+ 
+ tech_tie_advanced:0 "TIE Advanced"
+ tech_tie_advanced_desc:0 "The TIE Advanced x1, or TIE/x1 was an advanced prototype starfighter touted as a replacement for the standard TIE Fighter tested by Darth Vader and X1 at the battles of Yavin and Mustafar respectively."
+ 
+ tech_tie_hunter:0 "TIE/HU Hunter"
+ tech_tie_hunter_desc:0 "The TIE/HU Hunter multi-role starfighter is a starfighter from the TIE Series used by the Galactic Empire. Developed by the Empire as a means of countering the Rebel Alliance's T-65 X-wing starfighter, the TIE Hunter was used exclusively by storm commandos."
+ 
+ tech_tie_phantom:0 "TIE/PH Phantom"
+ tech_tie_phantom_desc:0 "The TIE/ph phantom, is a prototype TIE Series starfighter developed by the Galactic Empire. The TIE phantom was the result of a development project led by Grand Admiral Martio Batch and was equipped with both deflector shields and a hyperdrive, along with a technology not seen for decades—a stygium cloaking device."
+ 
+ tech_tie_defender:0 "TIE/D Defender"
+ tech_tie_defender_desc:0 "The TIE/D Defender, is a high-performance TIE Series starfighter developed for the Imperial Navy shortly before the Battle of Endor. The ship featured a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its firepower, make it arguably the most advanced starfighter."
+ 
+ tech_tie_bomber:0 "TIE/SA Bomber"
+ tech_tie_bomber_desc:0 "The TIE/SA Bomber, is a larger, less maneuverable TIE starfighter used for destroying large starships and pinpoint-precision bombing. The SA in the TIE bomber's designation stands for surface assault."
+ 
+ tech_tie_torpedo:0 "TIE/TB Torpedo Bomber"
+ tech_tie_torpedo_desc:0 "The TIE Torpedo Bomber is a sleek, one-man attack submersible under development at Juggerhead on Bestine IV."
+ 
+ tech_patrol_craft:0 "Firespray-class Interceptor"
+ tech_patrol_craft_desc:0 "Is a patrol ship manufactured by Kuat Systems Engineering. Firesprays are used to guard and patrol the prison moon Oovo IV."
+ 
+ #Component Set
+ 
+ TIE_SCOUT:0 "TIE Scout"
+ TIE_SCOUT_DESC:0 "The TIE/sr starfighter, or TIE scout, was a limited production TIE Series starfighter used by the Galactic Empire as a scout and light reconnaissance vessel. It was one of the many TIE variants in service during the Galactic Civil War.\n\n"
+ 
+ TIE_FIGHTER:0 "TIE/LN Fighter"
+ TIE_FIGHTER_DESC:0 "The TIE/LN starfighter, commonly known as the TIE fighter, was the signature starfighter of the Galactic Empire. Instantly recognizable from the roar of their engines, they exuded Imperial power and prestige across the galaxy, seeing use throughout the Empire's political existence.\n\n"
+ 
+ TIE_INTERCEPTOR:0 "TIE/IN Interceptor"
+ TIE_INTERCEPTOR_DESC:0 "The TIE/IN Interceptor, also known as TIE Interceptor, was a type of TIE fighter used by the Galactic Empire, most notably during the Battle of Endor. It was identifiable by the addition of four arrow-shaped panels tipped with laser cannons.\n\n"
+ 
+ TIE_ADVANCED:0 "TIE Advanced"
+ TIE_ADVANCED_DESC:0 "The TIE Advanced x1, or TIE/x1 was an advanced prototype starfighter touted as a replacement for the standard TIE Fighter tested by Darth Vader and X1 at the battles of Yavin and Mustafar respectively.\n\n"
+ 
+ TIE_HUNTER:0 "TIE/HU Hunter"
+ TIE_HUNTER_DESC:0 "The TIE/HU Hunter multi-role starfighter is a starfighter from the TIE Series used by the Galactic Empire. Developed by the Empire as a means of countering the Rebel Alliance's T-65 X-wing starfighter, the TIE Hunter was used exclusively by storm commandos.\n\n"
+ 
+ TIE_PHANTOM:0 "TIE/PH Phantom"
+ TIE_PHANTOM_DESC:0 "The TIE/ph phantom, was a prototype TIE Series starfighter developed by the Galactic Empire. The TIE phantom was the result of a development project led by Grand Admiral Martio Batch and was equipped with both deflector shields and a hyperdrive, along with a technology not seen for decades—a stygium cloaking device.\n\n"
+ 
+ TIE_DEFENDER:0 "TIE/D Defender"
+ TIE_DEFENDER_DESC:0 "The TIE/D Defender, was a high-performance TIE Series starfighter developed for the Imperial Navy shortly before the Battle of Endor. The ship featured a hyperdrive as well as deflector shields to allow it to operate independently of Imperial capital ships. The ship's speed and agility, combined with its firepower, make it arguably the most advanced starfighter.\n\n"
+ 
+ TIE_BOMBER:0 "TIE/SA Bomber"
+ TIE_BOMBER_DESC:0 "The TIE/SA Bomber, is a larger, less maneuverable TIE starfighter used for destroying large starships and pinpoint-precision bombing. The SA in the TIE bomber's designation stands for surface assault."
+ 
+ TIE_TORPEDO:0 "TIE/TB Torpedo Bomber"
+ TIE_TORPEDO_DESC:0 "The TIE Torpedo Bomber is a sleek, one-man attack submersible under development at Juggerhead on Bestine IV.\n\n"
+ 
+ 
+ #component parts
+
+ LARGE_TIE_SCOUT:0 "TIE Scout"
+ LARGE_TIE_FIGHTER:0 "TIE/LN Fighter"
+ LARGE_TIE_INTERCEPTOR:0 "TIE/IN Interceptor"
+ LARGE_TIE_ADVANCED:0 "TIE Advanced"
+ LARGE_TIE_HUNTER:0 "TIE/HU Hunter" 
+ LARGE_TIE_PHANTOM:0 "TIE/PH Phantom"
+ LARGE_TIE_DEFENDER:0 "TIE/D Defender"
+ LARGE_TIE_BOMBER:0 "TIE/SA Bomber"
+ LARGE_TIE_TORPEDO:0 "TIE/TB Torpedo Bomber"
+ 
+ # Ship/ Fighter/ Bomber Weapons
+ 
+ TIE_SCOUT_WEAPON:0 "TIE Scout Weapon"
+ TIE_SCOUT_WEAPON_DESC:0 ""
+ 
+ TIE_FIGHTER_WEAPON:0 "TIE/LN Fighter Weapon"
+ TIE_FIGHTER_WEAPON_DESC:0 ""
+ 
+ TIE_INTERCEPTOR_WEAPON:0 "TIE/IN Interceptor Weapon"
+ TIE_INTERCEPTOR_WEAPON_DESC:0 ""
+ 
+ TIE_HUNTER_WEAPON:0 "TIE/HU Hunter Weapon"
+ TIE_HUNTER_WEAPON_DESC:0 ""
+ 
+ TIE_BOMBER_WEAPON:0 "TIE/SA Bomber Weapon"
+ TIE_BOMBER_WEAPON_DESC:0 ""
+ 
+ TIE_DEFENDER_WEAPON:0 "TIE/D Defender Weapon"
+ TIE_DEFENDER_WEAPON_DESC:0 ""
+ 
+ TIE_TORPEDO_WEAPON:0 "TIE/TB Torpedo Bomber Weapon"
+ TIE_TORPEDO_WEAPON_DESC:0 ""
+ 
+ SLAVE1_WEAPON:0 "Firespray Interceptor Weapon"
+ SLAVE1_WEAPON_DESC:0 ""
+ 
+ FIGHTER_MISSILE:0 "Fighter Missile"
+ FIGHTER_MISSILE_DESC:0 ""
+ 
+ VENATOR_DBY-827:0 "DBY-827 HDTL"
+ VENATOR_DBY-827_DESC:0 "Was a turbolaser turret used on the Galactic Republic's Venator-class Star Destroyers during the Clone Wars. The DBY-827 had seven different intensity settings. This allowed the Venator's pilots and gunners to select a range of destruction, from a small strike to a vaporizing blow. As a true warship, the Venator-class Star Destroyer could divert almost all of its reactor output to its heavy turbolasers."
+ 
+ SW_ANNI_BISMARCK: "Heavy Dual Turbolaser Tower"
+ SW_ANNI_BISMARCK_DESC: ""
+ 
+ LARGE_SW_ANNI_TURRET: "Heavy Quad Turbolaser"
+ LARGE_SW_ANNI_TURRET_DESC: "."
+ 
+ MEDIUM_SW_ANNI_BALL: "Triple Ball Turbolaser"
+ MEDIUM_SW_ANNI_BALL_DESC: ""
+ 
+ MEDIUM_SW_ANNI_ION_BALL: "Triple Ion Cannon"
+ MEDIUM_SW_ANNI_ION_BALL_DESC: ""
+ 
+ ANNIHILATOR_TIE_TORPEDO: "TIE/TB Torpedo Bomber"
+ ANNIHILATOR_TIE_TORPEDO_DESC: ""
+ 
+ ANNIHILATOR_TIE_DEFENDER: "TIE/D Defender"
+ ANNIHILATOR_TIE_DEFENDER_DESC: ""
+ 
+ # component parts weapon
+ 
+ SMALL_TIE_SCOUT:0 "TIE Scout Weapon"
+ SMALL_TIE_FIGHTER:0 "TIE/LN Fighter Weapon"
+ SMALL_TIE_INTERCEPTOR:0 "TIE/IN Interceptor Weapon"
+ SMALL_TIE_HUNTER:0 "TIE/HU Hunter Weapon"
+ SMALL_TIE_BOMBER:0 "TIE/SA Bomber Weapon"
+ SMALL_TIE_DEFENDER:0 "TIE/D Defender Weapon"
+ SMALL_TIE_TORPEDO:0 "TIE/TB Torpedo Bomber Weapon"
+ SMALL_SLAVE1:0 "Firespray Interceptor Weapon"
+ MEDIUM_SLAVE1:0 "Firespray Interceptor Missiles"
+ 
+ VENATOR_DBY-827:0 "Venator DBY-827 HDTL"
+ 
+ #Aura
+ E_INTERDICTOR_SHIP_AURA_SUBSPACE_SNARE:0 "Interdictor Gravity Well"
+ E_IMMOBILIZER_SHIP_AURA_SUBSPACE_SNARE:0 "Immobilizer Gravity Well"
+ ST_EMPIRE_NO_DOMI:0 "Empty"
+ ST_EMPIRE_NO_GRAV:0 "Empty"
+ 
+ # Utility
+ 
+ ST_EMPIRE_WARP_DRIVE_1:0 "Fighter Warp Drive"
+ ST_EMPIRE_HYPER_DRIVE_1:0 "Fighter Hyper Drive"
+ ST_EMPIRE_WORMHOLE_DRIVE:0 "Fighter Wormhole Drive"
+ 
+ st_Empire_01_Fighter_COMBAT_COMPUTER_1:0 "Empire Fighter Computer"
+ st_Empire_01_Bomber_COMBAT_COMPUTER_1:0 "Empire Bomber Computer"
+ 
+ st_empire_ftl_components:0 "Empire Fighter FTL"
+ st_empire_ftl_components_desc:0 ""
+ st_empire_behavior_components:0 "Empire Fighter Computer"
+ st_empire_behavior_components_desc:0 ""
+ st_empire_dominator_components:0 "Interdictor Gravity Well"
+ st_empire_dominator_components_desc:0 ""
+ st_empire_immo_components:0 "Immobilizer Gravity Well"
+ st_empire_immo_components_desc:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,204 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+
+### Sol System
+coruscant_system_initializer = {
+	name = "NAME_coruscant"
+	
+	usage = origin
+	
+	class = "sc_f"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 237
+	}
+	
+	flags = { empire_home_system coruscant_system }
+	
+	usage = custom_empire
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		generate_home_system_resources = yes
+	}
+	
+	planet = {
+		name = "NAME_coruscant_prime"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_revisse"
+		class = "pc_molten"
+		orbit_distance = 50
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_platoril"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_vandor_1"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 185
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_vandor_2"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 105
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_vandor_3"
+		class = "pc_tropical"
+		orbit_distance = 25
+		orbit_angle = 30
+		starting_planet = yes
+		deposit_blockers = none
+		modifiers = none
+		size = 20
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		name = "NAME_coruscant"
+		class = "pc_relic"
+		orbit_distance = 25
+		orbit_angle = 90
+		size = 25
+		has_ring = yes
+		deposit_blockers = none
+		modifiers = none
+		flags = { planet_coruscant }
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		moon = {
+			name = "NAME_centax_1"
+			class = "pc_barren_cold"
+			size = 4
+			orbit_distance = 10
+			orbit_angle = 40
+			has_ring = no
+		}
+		
+		moon = {
+			name = "NAME_centax_2"
+			class = "pc_barren_cold"
+			size = 6
+			orbit_distance = 5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_centax_3"
+			class = "pc_barren"
+			size = 9
+			orbit_distance = 5
+			orbit_angle = 20
+			has_ring = no
+		}
+		moon = {
+			name = "NAME_hesperidium"
+			class = "pc_ocean"
+			deposit_blockers = none
+			modifiers = none
+			size = 12
+			orbit_distance = 5
+			orbit_angle = 0
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "NAME_muscave"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 25
+		has_ring = yes
+				
+	}
+	
+	planet = {
+		name = "NAME_stentats"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = -210
+		size = 27
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_improcco"
+		class = "pc_barren_cold"
+		orbit_distance = 25
+		orbit_angle = -95
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_nabatu"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 285
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "NAME_ulabos"
+		class = "pc_barren_cold"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 18
+		has_ring = yes
+	}	
+	#neighbor_system = {
+	#	hyperlane_jumps = { min = 1 max = @jumps }
+	#	initializer = "coruscant_neighbor_t1"
+	#}
+	#neighbor_system = {
+	#	trigger = { num_guaranteed_colonies >= 1 }
+	#	hyperlane_jumps = { min = 1 max = @jumps }
+	#	initializer = "coruscant_neighbor_t1_first_colony"
+	#}
+	#neighbor_system = {
+	#	trigger = { num_guaranteed_colonies = 0 }
+	#	hyperlane_jumps = { min = 1 max = @jumps }
+	#	initializer = "coruscant_neighbor_t1_no_guaranteed_colony"
+	#}
+}

@@ -1,0 +1,86 @@
+#small
+objectTypes = {
+	pdxmesh = {
+		name = "st_Turret_small_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Turret_small.mesh"
+		scale = 0.13
+
+		meshsettings = {
+			name = "Turret_smallShape"
+			index = 0
+			texture_diffuse = "st_W_XX_9_diffuse.dds"
+			texture_normal = "st_W_XX_9_normal.dds"
+			texture_specular = "st_W_XX_9_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+#medium
+objectTypes = {
+	pdxmesh = {
+		name = "st_Turret_medium_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Turret_medium.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "BarrelShape"
+			index = 0
+			texture_diffuse = "Empire_Star_Destroyer_diffuse.dds"
+			texture_normal = "Empire_Star_Destroyer_normal.dds"
+			texture_specular = "Empire_Star_Destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+#large
+objectTypes = {
+	pdxmesh = {
+		name = "st_Turret_large_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Turret_large.mesh"
+		scale = 0.8
+
+		meshsettings = {
+			name = "BarrelShape"
+			index = 0
+			texture_diffuse = "Empire_Star_Destroyer_diffuse.dds"
+			texture_normal = "Empire_Star_Destroyer_normal.dds"
+			texture_specular = "Empire_Star_Destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Venator_DTHL_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Venator_DTHL.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "VSD_HDTLShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Venator_HDTL_diffuse.dds"
+			texture_normal = "sw_Empire_01_Venator_HDTL_normal.dds"
+			texture_specular = "sw_Empire_01_Venator_HDTL_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#XL
+#objectTypes = {
+#	pdxmesh = {
+#		name = "st_Turret_XL_mesh"
+#		file = "gfx/models/ships/st_empire_00/st_Turret_XL.mesh"
+#		scale = 1.0
+#
+#		meshsettings = {
+#			name = "TurretShape"
+#			index = 0
+#			texture_diffuse = "Octuple_diffuse.dds"
+#			texture_normal = "Octuple_normal.dds"
+#			texture_specular = "Octuple_specular.dds"
+#			shader = "PdxMeshShip"
+#		}
+#	}
+#}

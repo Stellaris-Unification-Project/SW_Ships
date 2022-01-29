@@ -1,0 +1,12 @@
+component_set = {
+	key = "SW_DIAMOND_BORON_1"
+	
+	icon = "GFX_ship_part_sw_dboron_1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "SW_DIAMOND_BORON_2"
+	
+	icon = "GFX_ship_part_sw_dboron_2"
+	icon_frame = 1	
+}

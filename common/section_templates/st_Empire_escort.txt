@@ -1,0 +1,442 @@
+@section_cost = 30
+#BOW Vigil
+
+ship_section_template = {
+	key = "ST_ESCORT_BOW_M2S3"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = bow
+	entity = "st_Escort_bow_M2S3_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_vigil }
+
+	ai_weight = {
+		modifier = {
+			factor = 4.0
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = slaving_despots
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = migrating_flock
+			}
+		}
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "small_gun_03"
+	}	
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+#STERN Vigil
+
+ship_section_template = {
+	key = "ST_ESCORT_STERN_S4"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_Escort_stern_S4_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_vigil }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_05"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_06"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_07"
+	}
+	
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_ESCORT_STERN_M1S2"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_Escort_stern_M1S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	prerequisites = { tech_vigil }
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = metalhead
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_08"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_09"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Kuat Weapon 
+
+ship_section_template = {
+	key = "ST_ESCORT_BOW_L2"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = bow
+	entity = "st_Escort_bow_L2_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "large_turret"
+		locatorname = "large_gun_02"
+	}
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+#STERN Kuat Weapon
+
+ship_section_template = {
+	key = "ST_W_ESCORT_STERN_S4"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_w_Escort_stern_S4_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "point_defence_turret"
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_W_ESCORT_STERN_M2"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_w_Escort_stern_M2_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = metalhead
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+# Nebulon-B
+
+ship_section_template = {
+	key = "ST_N_ESCORT_BOW_S6"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = bow
+	entity = "st_n_Escort_bow_S6_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	prerequisites = { tech_nebulon }
+	
+	ai_weight = {
+		modifier = {
+			factor = 4.0
+			OR = {
+			has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_01"
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
+		locatorname = "small_gun_02"
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "small_turret"
+		locatorname = "small_gun_04"
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "small_turret"
+		locatorname = "small_gun_05"
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "small_turret"
+		locatorname = "small_gun_06"
+	}
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+#STERN
+
+ship_section_template = {
+	key = "ST_N_EESCORT_STERN_S2H1"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_n_Escort_stern_S2H1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_nebulon }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "small_gun_07"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "small_turret"
+		locatorname = "small_gun_08"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "ST_N_ESCORT_STERN_M2"
+	ship_size = st_Empire_01_Escort
+	fits_on_slot = stern
+	entity = "st_n_Escort_stern_M2_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_nebulon }
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = metalhead
+				has_ai_personality = hive_mind
+			}
+		}
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "medium_turret"
+		locatorname = "medium_gun_02"
+	}
+	
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}

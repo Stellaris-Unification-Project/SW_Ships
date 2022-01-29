@@ -1,0 +1,260 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Bellator_M8L2_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Empire_Bellator_M8L2.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Star_Destroyer_Hull_diffuse.dds"
+			texture_normal = "st_Empire_Star_Destroyer_Hull_normal.dds"
+			texture_specular = "st_Empire_Star_Destroyer_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Lights_Grid_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Imperial_Star_Destroyer_Super_Structure_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Super_Structure_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Empire_Bellator_Hull_Main_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Hull_Main_normal.dds"
+			texture_specular = "st_Empire_Bellator_Hull_Main_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "st_Empire_Bellator_Hull_Top_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Hull_Top_normal.dds"
+			texture_specular = "st_Empire_Bellator_Hull_Top_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "st_Empire_Bellator_Turret_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Turret_normal.dds"
+			texture_specular = "st_Empire_Bellator_Turret_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "st_Empire_Bellator_Hull_Rear_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Hull_Rear_normal.dds"
+			texture_specular = "st_Empire_Bellator_Hull_Rear_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "st_Empire_Bellator_Engines_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Engines_normal.dds"
+			texture_specular = "st_Empire_Bellator_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 8
+			texture_diffuse = "st_Empire_Bellator_Hull_Front_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Hull_Front_normal.dds"
+			texture_specular = "st_Empire_Bellator_Hull_Front_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 9
+			texture_diffuse = "st_Empire_Bellator_Reactors_diffuse.dds"
+			texture_normal = "st_Empire_Bellator_Reactors_normal.dds"
+			texture_specular = "st_Empire_Bellator_Reactors_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Empire_Bellator_M4L4_mesh"
+		file = "gfx/models/ships/st_empire_00/st_Empire_Bellator_M4L4.mesh"
+		scale = 0.5
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 0
+			texture_diffuse = "sw_Empire__01_Annihilator_Hull_Front_diffuse.dds"
+			texture_normal = "sw_Empire__01_Annihilator_Hull_Front_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 1
+			texture_diffuse = "sw_Empire_01_Annihilator_SupStruc_Two_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_SupStruc_Two_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 2
+			texture_diffuse = "sw_Empire_01_Annihilator_SupStruc_One_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_SupStruc_One_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 3
+			texture_diffuse = "sw_Empire__01_Annihilator_Engines_diffuse.dds"
+			texture_normal = "sw_Empire__01_Annihilator_Engines_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 4
+			texture_diffuse = "Lights_Grid_Orange_Desaturated_Normal_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 5
+			texture_diffuse = "Lights_Grid_Orange_Desaturated_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 6
+			texture_diffuse = "sw_Empire_01_Annihilator_Hanger_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Hanger_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 7
+			texture_diffuse = "sw_Empire_01_Annihilator_Hull_Rear_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Hull_Rear_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_Turrets_Left_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator_Turrets_Left.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Turret_Mounts_leftShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Annihilator_Turrets_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Turrets_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_Turrets_right_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator_Turrets_right.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "Turret_Mounts_OneShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Annihilator_Turrets_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Turrets_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_Ball_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator_Ball.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "BarrelShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Annihilator_Ball_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Ball_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_Bismarck_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator_Bismarck.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "TurretShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Annihilator_Bismarck_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Bismarck_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "sw_Empire_01_Annihilator_Turret_mesh"
+		file = "gfx/models/ships/st_empire_00/sw_Empire_01_Annihilator_Turret.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			name = "TurretShape"
+			index = 0
+			texture_diffuse = "sw_Empire_01_Annihilator_Imp_diffuse.dds"
+			texture_normal = "sw_Empire_01_Annihilator_Imp_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+

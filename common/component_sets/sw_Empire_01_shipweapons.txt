@@ -1,0 +1,43 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "VENATOR_DBY-827"
+	
+	icon = "GFX_ship_part_venator_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SW_ANNI_BISMARCK"
+	
+	icon = "GFX_ship_part_Anni_Bismarck_Turret"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SW_ANNI_LARGE_TURRET"
+	
+	icon = "GFX_ship_part_Anni_Large_Turret"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SW_ANNI_BALL"
+	
+	icon = "GFX_ship_part_Anni_BTL"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SW_ANNI_ION_BALL"
+	
+	icon = "GFX_ship_part_Anni_BTL"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ANNI_DEFENCE_TURBO"
+	
+	icon = "GFX_ship_part_Anni_BTL"
+	icon_frame = 1	
+}

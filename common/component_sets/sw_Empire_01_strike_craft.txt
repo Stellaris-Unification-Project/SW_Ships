@@ -1,0 +1,149 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "st_empire_behavior_components"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_border_extruder_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "st_empire_ftl_components"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_border_extruder_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FIGHTER_MISSILE"
+	
+	icon = "GFX_ship_part_fighter_missile"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_SCOUT"
+	
+	icon = "GFX_ship_part_tie_scout"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_SCOUT_WEAPON"
+	
+	icon = "GFX_ship_part_tie_scout"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_FIGHTER"
+	
+	icon = "GFX_ship_part_tie_fighter"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_FIGHTER_WEAPON"
+	
+	icon = "GFX_ship_part_tie_fighter_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_INTERCEPTOR"
+	
+	icon = "GFX_ship_part_tie_interceptor"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_INTERCEPTOR_WEAPON"
+	
+	icon = "GFX_ship_part_tie_interceptor_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_ADVANCED"
+	
+	icon = "GFX_ship_part_tie_advanced"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_HUNTER"
+	
+	icon = "GFX_ship_part_tie_hunter"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_HUNTER_WEAPON"
+	
+	icon = "GFX_ship_part_tie_hunter_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_PHANTOM"
+	
+	icon = "GFX_ship_part_tie_phantom"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_BOMBER"
+	
+	icon = "GFX_ship_part_tie_bomber"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_BOMBER_WEAPON"
+	
+	icon = "GFX_ship_part_tie_bomber_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_DEFENDER"
+	
+	icon = "GFX_ship_part_tie_defender"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_DEFENDER_WEAPON"
+	
+	icon = "GFX_ship_part_tie_defender_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_TORPEDO"
+	
+	icon = "GFX_ship_part_tie_torpedo"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_TORPEDO_WEAPON"
+	
+	icon = "GFX_ship_part_tie_torpedo_weapon"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SLAVE1_WEAPON"
+	
+	icon = "GFX_ship_part_slave1_weapon"
+	icon_frame = 1	
+}
+
+
+
+
+
+

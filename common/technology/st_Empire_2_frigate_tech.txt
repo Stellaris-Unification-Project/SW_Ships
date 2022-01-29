@@ -1,0 +1,214 @@
+tech_frigates= {
+	cost = @tier1cost2
+	area = engineering
+	tier = 2
+	category = { voidcraft }	
+	prerequisites = { "tech_destroyers" }
+	weight = @tier1weight2
+	
+	gateway = ship
+	
+	## unlock destroyer	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_FRIGATE_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_FRIGATE_CONSTRUCTION_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_st_empire_01
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 10 }
+		}	
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_destroyers
+			}
+		}		
+		modifier = {
+			factor = 2
+			years_passed > 15
+		}
+		modifier = {
+			factor = 3
+			years_passed > 20
+		}
+		modifier = {
+			factor = 4
+			years_passed > 30
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #important tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+tech_nebulon = {
+	cost = @tier1cost3
+	area = engineering
+	tier = 2
+	category = { voidcraft }	
+	prerequisites = { "tech_frigates" }
+	weight = @tier1weight3
+	
+	gateway = ship
+	
+	## unlock destroyer	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_NEBULON_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_NEBULON_CONSTRUCTION_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_st_empire_01
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 10 }
+		}	
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_destroyers
+			}
+		}		
+		modifier = {
+			factor = 2
+			years_passed > 15
+		}
+		modifier = {
+			factor = 3
+			years_passed > 20
+		}
+		modifier = {
+			factor = 4
+			years_passed > 30
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #important tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_vigil = {
+	cost = @tier2cost1
+	area = engineering
+	tier = 3
+	category = { voidcraft }	
+	prerequisites = { "tech_nebulon" }
+	weight = @tier2weight1
+	
+	gateway = ship
+	
+	## unlock destroyer	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_VIGIL_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_VIGIL_CONSTRUCTION_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_st_empire_01
+			}
+		}	
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 10 }
+		}	
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_destroyers
+			}
+		}		
+		modifier = {
+			factor = 2
+			years_passed > 15
+		}
+		modifier = {
+			factor = 3
+			years_passed > 20
+		}
+		modifier = {
+			factor = 4
+			years_passed > 30
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 100 #important tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

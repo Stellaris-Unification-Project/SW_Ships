@@ -1,0 +1,144 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Vigil_Escort_M2S3_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Vigil_Escort_M2S3.mesh"
+		scale = 0.35
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Vigil_Corvette_diffuse.dds"
+			texture_normal = "st_Empire_Vigil_Corvette_normal.dds"
+			texture_specular = "st_Empire_Vigil_Corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Empire_Vigil_Corvette_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Vigil_Corvette_Lights_normal.dds"
+			texture_specular = "st_Empire_Vigil_Corvette_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+#Stern
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Vigil_Escort_S4_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Vigil_Escort_S4.mesh"
+		scale = 0.35
+	}
+}
+
+# Kuat Weapon 
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Costum_Escort_L2_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Costum_Escort_L2.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 0
+			texture_diffuse = "st_Empire_Custom_Frigate_diffuse.dds"
+			texture_normal = "st_Empire_Custom_Frigate_normal.dds"
+			texture_specular = "st_Empire_Custom_Frigate_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 1
+			texture_diffuse = "Engine_Glow_White_diffuse.dds"
+			texture_normal = "Engine_Glow_White_normal.dds"
+			texture_specular = "Engine_Glow_White_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Costum_FrigateShape"
+			index = 2
+			texture_diffuse = "st_Empire_Costum_Lights_diffuse.dds"
+			texture_normal = "st_Empire_Costum_Lights_normal.dds"
+			texture_specular = "st_Empire_Costum_Lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+# Stern 
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Costum_Escort_M2_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Costum_Escort_M2.mesh"
+		scale = 0.75
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Costum_Escort_S4_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Costum_Escort_S4.mesh"
+		scale = 0.75
+	}
+}
+
+# Nebulon- B
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Nebulon_B_Escort_S6_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Nebulon_B_Escort_S6.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Empire_Nebulon_B_diffuse.dds"
+			texture_normal = "st_Empire_Nebulon_B_normal.dds"
+			texture_specular = "st_Empire_Nebulon_B_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Lights_Grid_diffuse.dds"
+			texture_normal = "Lights_Grid_normal.dds"
+			texture_specular = "Lights_Grid_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+# Stern
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Nebulon_B_Escort_S2H1_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Nebulon_B_Escort_S2H1.mesh"
+		scale = 0.75
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Nebulon_B_Escort_M2_mesh"
+		file = "gfx/models/ships/st_empire_01/st_Nebulon_B_Escort_M2.mesh"
+		scale = 0.75
+	}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+# TIE Fighter
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_sw_dboron_1"
+		texturefile = "gfx/interface/icons/ship_parts/sw_dboron_missile_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_sw_dboron_2"
+		texturefile = "gfx/interface/icons/ship_parts/sw_dboron_missile_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_venator_weapon"
+		texturefile = "gfx/interface/icons/ship_parts/sw_ship_part_DBY-827_TL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_Anni_BTL"
+		texturefile = "gfx/interface/icons/ship_parts/sw_ship_part_Anni_BTL.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_Anni_Bismarck_Turret"
+		texturefile = "gfx/interface/icons/ship_parts/sw_ship_part_Anni_Bismarck_turret.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_Anni_Large_Turret"
+		texturefile = "gfx/interface/icons/ship_parts/sw_ship_part_Anni_large_turret.dds"
+	}
+	
+}
+	
+	
+	
+
+	

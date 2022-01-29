@@ -1,0 +1,100 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_counter_st_Empire_01_Escort"
+		textureFile = "gfx/interface/system/icon_st_Empire_01_Escort.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_light_cruiser_01"
+		textureFile = "gfx/interface/system/icon_st_light_cruiser_01.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_light_Int_01"
+		textureFile = "gfx/interface/system/icon_st_light_Int_01.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_Cruiser_01"
+		textureFile = "gfx/interface/system/icon_st_Cruiser_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_st_Cruiser_02"
+		textureFile = "gfx/interface/system/icon_st_Cruiser_02.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_Carrier_01"
+		textureFile = "gfx/interface/system/icon_st_Carrier_01.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_E_Battlecruiser"
+		textureFile = "gfx/interface/system/icon_st_E_Battlecruiser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_battleship_01"
+		textureFile = "gfx/interface/system/icon_st_battleship_01.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_battleship_02"
+		textureFile = "gfx/interface/system/icon_st_battleship_02.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_st_dreadnought_01"
+		textureFile = "gfx/interface/system/icon_st_dreadnought_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_st_heavy_Int_01"
+		textureFile = "gfx/interface/system/icon_st_heavy_Int_01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_st_SSD"
+		textureFile = "gfx/interface/system/icon_st_SSD.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_sw_Annihilator"
+		textureFile = "gfx/interface/system/icon_sw_Annihilator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_Empire_fighter"
+		textureFile = "gfx/interface/system/icon_st_Empire_fighter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_Empire_bomber"
+		textureFile = "gfx/interface/system/icon_st_Empire_bomber.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_st_Empire_Patrol"
+		textureFile = "gfx/interface/system/icon_st_Empire_Patrol.dds"
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

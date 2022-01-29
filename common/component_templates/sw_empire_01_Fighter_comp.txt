@@ -1,0 +1,52 @@
+### HYPER DRIVES
+utility_component_template = {
+	key = "ST_EMPIRE_HYPER_DRIVE_1"
+	size = small
+	icon = "GFX_ship_part_hyper_drive_1"
+	icon_frame = 1
+	power = 0
+	
+	ai_weight = {
+		weight = 1
+	}
+	
+	
+	prerequisites = { "tech_tie_scout" }
+	component_set = "st_empire_ftl_components"
+}
+
+##########
+#Behavior
+##########
+
+utility_component_template = {
+	key = "st_Empire_01_Fighter_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { st_Empire_fighter st_Empire_Patrol }
+	component_set = "st_empire_behavior_components"
+	ship_behavior = "fighters_behavior"
+	
+	ai_weight = {
+		weight = 1
+	}	
+}
+
+utility_component_template = {
+	key = "st_Empire_01_Bomber_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { st_Empire_bomber }
+	component_set = "st_empire_behavior_components"
+	ship_behavior = "bombers_behavior"
+	
+	ai_weight = {
+		weight = 1
+	}	
+}
