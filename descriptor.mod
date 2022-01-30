@@ -11,5 +11,5 @@ tags={
 	"Technologies"
 	"Graphics"
 }
-supported_version="2.7.*"
+supported_version="3.2.2"
 remote_file_id="2019865539"
